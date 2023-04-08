@@ -1,0 +1,109 @@
+// events in js
+1- onclick
+2- onmouseup
+3- onmousedown
+4- onmouseover
+5- onmouseout
+6- onmousemove
+7- onkeyup
+8- onkeydown
+9- onfocus
+10- onblur
+11- onload
+12- onresize
+13- ondblclick
+14- oncontextmenu <= right click
+15- onmouseenter <= hover
+16- onscroll
+17-onabort
+18- onafterprint
+19- onautocomplete
+20- onautocompleteerror
+21- onbeforeprint
+22- onbeforeunload
+23- onblur
+24- oncancel
+25- oncanplay
+26- oncanplaythrough
+27- onchange
+28- oncloce
+29- oncopy
+30- ondrag
+31- oncut
+32- oncuechange
+33- ondragend
+34- ondragenter
+35- ondragexit
+36- ondragleave
+37- ondragover
+38- ondragstart
+39- ondrop
+40- ondurationchange
+41- onended
+42- onerror
+43- oninput
+44- onkeypress
+45- oninvalid
+46- onloadeddata
+47- onloadedmetadata
+48- onmessage
+49- onmouseleave
+50- onmousewheel
+51- ononline
+52- onoffline
+53- onpagehide
+54- onpageshow
+55- onpaste
+56- onplay
+57- onplaying
+58- onpopstate
+59- onprogress
+60- onratechange
+61- onreset
+62- onsearch
+63- onseeked
+64- onseeking
+65- onselect
+66- onshow
+67- onsort
+68- onstorage
+69- onsubmit
+70- onsuspend
+71- ontimeupdate
+72- ontoggle
+73- onunload
+74- onvolumechange
+75- onwaiting
+76- onopen
+
+
+animationEvents.property
+property=>
+* animationName
+* elapsedTime
+* pseudoElement
+animationEvents=>
+* animationstart
+* animationend
+
+
+
+
+
+
+
+
+
+
+
+
+
+/let eventOne = document.getElementById('event-one');
+//way one
+//in html element
+//way2
+//eventOne.onclick = () => console.log('Hello'); //or main function
+//way 3
+//eventOne.addEventListener('click', function () {
+//    // code
+//});

@@ -1,0 +1,10 @@
+/* 3 ways to creat varibales
+ *
+ * 1- var;
+ * 2- let;
+ * 3- const;
+ * rols in rename varibles
+ * 1- dont rite numbers in first
+ * 2- dont rite operators in first except _ <= under score and $
+ * 3- dont rite keywords in js;
+*/

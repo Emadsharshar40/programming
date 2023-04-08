@@ -1,0 +1,81 @@
+
+//condetions\\
+
+1- **********
+if(condetion) {
+
+};
+
+if() {
+
+} else if(condetion2) {
+
+} else if(condetion3) {
+
+} else {
+
+};
+
+2- **********
+let role = prompt("what is your role?");
+
+switch (role/*<= exepretion*/) {
+
+    case 'admin':
+        document.write("creat, update, delate");
+        break;
+
+    case 'moderator':
+        document.write("creat, update");
+        break;
+    case 'editor':
+        document.write("creat");
+        break;
+    default:
+        document.write("Hello user");
+};
+
+3- **********
+let age = prompt("what is your age?");
+    age > 20?
+        document.write('hello user')
+    :age == 20?
+        document.write('you are 20 years old')
+    :document.write('no you are very young');
+
+4-***********
+let age = prompt("what is your age?"),
+    result = age > 20?
+    'hello user'
+    :age == 20?
+    'you are 20 years old'
+    :'no you are very young';
+document.write(result);
+
+‰« Ã  ÕﬁÌﬁ «·‘—ÿ ”Ê› ÌÕ›Ÿ ›Ì «·„ €Ì—
+
+// control
+    //if (i === 4) {
+    //    // break;  // stop loop
+    //    // continue;
+    //}
+    //console.log(i++);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

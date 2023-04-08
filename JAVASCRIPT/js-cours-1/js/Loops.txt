@@ -1,0 +1,38 @@
+
+//Loops\\
+statment1: start Loop
+statment2: condetion of loop
+statment3: steps 
+for(statment1, statment2, statment3) {
+
+};
+
+statment1 <= declaration varible
+do {
+statment3
+} while(statment2); 
+
+statment1 
+while(statment2) {
+statment3
+};
+
+
+4- for (in) search in google
+
+
+
+//var i, x;
+//
+//mainLoop: // label for loop
+//for (i = 1; i < 4; i++) {
+//    
+//    childLoop: // label for loop
+//    
+//    for (x = 15; x < 20; x++) {
+//        if (x === 17) {
+//            break childLoop;
+//        }
+//        console.log(i + " => " + x);
+//    }
+//}

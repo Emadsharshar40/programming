@@ -1,0 +1,26 @@
+/*
+ * localStorage = 5MB to 10MB
+ * sesionStorage = 5MB
+*/
+
+//localStorage.setItem('name', 'Emad');
+//localStorage.name = 'Emad';
+//localStorage.setItem('skills', JSON.stringify(231));
+
+//console.log(localStorage.getItem(name));
+//console.log(localStorage.name);
+//console.log(typeof(localStorage.skills));
+//console.log(typeof(JSON.parse(localStorage.skills)));
+
+//localStorage.setItem('numbers', JSON.stringify([1,2,4,5,76,33]));
+//
+//console.log(localStorage.key(0));
+
+
+//localStorage.removeItem('name');
+//localStorage.removeItem('skills');
+//
+//localStorage.clear() <= remove all keys in localStorage;
+
+
+//sessionStorage.setItem('Emad', JSON.stringify(['E','m','a','d'])); <= save in tap

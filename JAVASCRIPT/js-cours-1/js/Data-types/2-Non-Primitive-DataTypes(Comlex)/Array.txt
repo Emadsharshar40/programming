@@ -1,0 +1,53 @@
+Array =>  «·„’›Ê›Â
+
+way one *******conistractor way
+var friends = new Array();
+friends[0] = "Hassan";
+friends[1] = "Emad";
+friends[2] = "Osama";
+friends[3] = "Kloud";
+friends[4] = "Ahmed";
+
+or ||
+
+var friends = new Array(
+    "Hassan",
+    "Emad",
+    "Osama",
+    "Kloud",
+    "Ahmed"
+);
+***************
+way tow****** letteral way 
+var friends = [];
+friends[0] = "Hassan";
+friends[1] = "Emad";
+friends[2] = "Kloud";
+
+or ||
+
+et names = [           <=  ﬁ»· ﬂ· «‰Ê«⁄ «·»«‰«  Õ Ì «·«—«Ì Ê«·«Ê»Ãﬂ 
+    'ahmed','ziad',
+    'sobhy','Emad',
+    'kloud','mazen',
+    'salma','sara'
+];
+objects[4][3][1] <= how to get element in Nessted array
+**********************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

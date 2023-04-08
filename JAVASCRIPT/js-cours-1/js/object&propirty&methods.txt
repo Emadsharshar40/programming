@@ -1,0 +1,134 @@
+object    нЌ жн Џбн ќж«’ жѕж«б «ж «ж«г—
+нћ» я «»е «б«ж»ћя  ё»б «бќ«’не «ж «бгнЋжѕ
+
+1- window
+* console()   <= object
+* prompt()   <= method
+* alert()     <= method
+* print()      <= method
+* error()     <= method
+* document  <= object
+
+2- Math
+* E  <= property
+* PI <= property
+* LN10  <= property
+* LN2    <= property
+* LOG2E  <= property
+* LOG10E   <= property
+* SQRT1_2    <= property
+* SQRT2 
+
+* ceil()      <= method
+* floor()    <= method
+* round()    <= method
+* min()       <= method
+* max()      <= method
+* random()  <= method
+* abs()    <= method
+* sqrt()    <= method
+* pow(x,y)   <= method
+* acos()  <= method
+* acosh()  <= method
+* asin() <= method
+* asinh() <= method
+* atan() <= method
+* atanh()   <= method
+* atan2()   <= method
+* cbtr() <= method
+* clz23() <= method
+* cos() <= method
+* cosh() <= method
+* exp()    <= method
+* expm1()   <= method
+* fround()    <= method
+* hypot()   <= method
+* imul()    <= method
+* log()  <= method
+* log10()   <= method
+* log1p()   <= method
+* log2()  <= method
+* sign()  <= method
+* sin()  <= method
+* sinh()   <= method
+* tan()   <= method
+* tanh()  <= method
+* trunc()  <= method
+
+
+3- Number <= object нгяд «” ќѕ«ге« Ён  Ќжнб «б«” —дћ «бн —ёг
+* MAX_VALUE              <= property
+* MAX_SAFE_INTEGER   <= property
+* MIN_SAFE_INTEGER    <= property
+* MIN_VALUE               <= property
+* NAN    <= property
+* NEGATIVE_INFINITY  <= property
+* POSITIVE_INFINITY   <= property
+* isNaN()           <= property
+* sIntege()         <= method
+* isSafeInteger()  <= method
+
+4- String()
+* toString() <= method
+* toLocaleString() <= method
+* charAt() <= method
+* indexOf()    <= method
+* lastIndexOf()   <= method
+* slice() <= method
+* charCodeAt()  <= methods
+* replace()   <= method
+* split()   <= method
+* String.fromCharCode()  <= method
+* substring()  <= method
+* substr()    <= method
+* includes()    <= method
+* startsWith()   <= method
+* endsWith()    <= method
+* valueOf()    <= method
+* charPointAt()  <= method
+* padEnd()   <= method
+* padStart()  <= method
+* normalize()  <= method
+* match()   <= method
+* search()   <= method
+* repeat()   <=  method
+* toLowerCase()  <= method
+* toUpperCase()   <= method
+* trim() <= method
+* string.link("https://...")   <=  method
+
+
+Array methods:
+1- join()
+2- push()
+3- unshift()
+4- arrayName.splice()
+5- pop()
+6- shift()
+7- sort()
+8- reverse()
+9- slice()
+10- nameAray,concat(otherArray)
+11- lastIndexOf()
+12- search()
+13- indexOf()
+14- keys() 
+15- entries() 
+16- filter() 
+17- some() 
+18- every() 
+19- forEach() 
+20- map() 
+21- values() 
+22- reduce()
+23- reduceRight() 
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+datatyps Primitive =>
+ *      1- boolen => true felse
+ *      2- string
+ *      3- numbers
+ *      4- undefined
+ *      5- Null
+ *      6- NaN (not a number)
+ *      7- symbole
+ *      8- bigint

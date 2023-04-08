@@ -1,0 +1,41 @@
+Js Operators
+<<Arithmetic Operators>>
+1- +    [Addition]
+2- -    [Subtraction]
+3- *    [Multiplication]
+4- /    [Division]
+5- %    [Modulus]
+6- **   [^os]
+
+<<Assignment Operators>>
+1- =                         [Assign]
+2- += or ++  <= [Increment]  [Add and assign]
+3- -= or --  <= [Decrement]  [Subtrac and assign]
+4- *=       x *= y <> x = x * y [Multipy and assign]
+5- /=      [Divide and assign Quotient]
+5- %=       [Divide and assign Modulus]
+
+<<String Operators>>
+1- +   [concatination]
+2- +=  [concatination Assignment]
+
+<<Increment and Decrement Operators>>
+1- ++X     [pre Increment]
+2- x++     [post Increment]
+3- --X     [pre Decrement]       x  is var
+4- X--     [post Decrement]
+
+<<Logical Operators>>
+1- &&  [And]
+2- ||  [Or]
+3- !   [not]
+
+<<Compaison Operators>>
+1- ==     [Equel]
+2- ===    [Identical]
+3- !=     [Not equel]
+4- !==    [Not Identical]
+5- <      [less than]
+6- >      [Greater than]
+7- >=     [Greater than or Equel to]
+8- <=     [less than or Equel to]

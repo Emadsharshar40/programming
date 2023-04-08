@@ -1,0 +1,24 @@
+Regular Expression
+ * Syntax
+ * \pattern\attributes
+ * search | Replace | Match | Split | Test
+ * attributes list for Regular Expression
+ * 1- /i => Case Insensitive
+ * 2- /g => glopal modefire run in all string
+ * 3- /m => multi line search
+ * 4- [] => squer bracets
+ * 5- [^] <= not
+ * 6- [a-z] <= from a to z range
+ * 7- [^a-z] <= not from a to z range
+ * 8- [0-9] <= from 0 to 9
+ * 9- [^0-9] <= not from 0 to 9
+ * 10- [A-h] <= range [A-Z] and [a-h] tow in one
+ * 11- [0-9a-z]
+ * 12- [^0-9a-z]
+ * 13- [0-9A-g]
+ * 14- [^0-9A-g]
+ * Regular Expression Quantifiers
+ * 1- letter+ => word contain one Letter
+ * 2- letter{Number} => word contain Number of letter
+ * 3- letter{Number,Number} => word contain Number or Number
+ * 4- letter{Number,} => word contain at least Úáí ÇáÇŞá

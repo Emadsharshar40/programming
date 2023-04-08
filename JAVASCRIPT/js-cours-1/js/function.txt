@@ -1,0 +1,51 @@
+
+//type of function and syntax\\
+
+1- *****************
+function name(parameter) {   <= function type [ declaretion ]
+	return <= is a key word to [return value function]
+};
+name(argument);
+
+2- *****************
+let name = function(parameter) {  <= function type [ exepretion ]
+};
+name(argument);
+
+3- *****************
+let name = () => {    <=  function type [ arrow function ]
+	
+	›Ì Õ«·Â ÊÃÊœ «ﬂÀ— „‰ ”ÿ— ﬂÊœ
+
+};
+name();
+
+let name = _ => on line;   ›Ì Õ·Â ÊÃÊ ”ÿ— Ê«Õœ
+
+let name = par => par+3;  ›Ì Õ·Â ÊÃÊœ „œŒ· Ê«Õœ
+
+let name = (par1,par2) => par1/par2; ›Ì Õ«·Â ÊÃÊœ «ﬂÀ— „‰ „œŒ·
+
+
+
+
+(function name() {  function self infock
+
+})();
+
+||
+
+(function name() {  function self infock
+
+}());
+
+//function calc(...numbers) {
+//    let result = 0;
+//    for (let i = 0; i < numbers.length; i++) {
+//        result += numbers[i];
+//    }
+//    console.log(result);
+//}
+//calc(9,9);
+
+

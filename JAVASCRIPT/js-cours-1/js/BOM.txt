@@ -1,0 +1,55 @@
+/ BOM  <=  Browser Object model
+/*
+ * 1- scroll(x,y);  scrollTo(x,y);
+ * 2- scrollBy(x,y);  <= ÈíÒæÏ Úáí ÇáãßÇä ÇáÎÇÕ Èí ÈÞÏÇ x y
+ * 3- scrollY
+ * 4- scrollX
+ * 
+ * 5- screen.width
+ * 6- screen.height
+ * 7- screen.availHeight <= ÇáÇÑÊÝÇÚ ÇáãÊÇÍ
+ * 8- screen.availWidth <= ÇáÚÑÖ ÇáãÊÇÍ
+ * 9- screen.colorDepth || screen.pixelrDepth 
+ * 10- screen.orientation.type
+ * 12- screen.availTop
+ * 13- screen.left
+ * 14- screen.top
+ *
+ * 15- location.href
+ * 16- location.protocol
+ * 17- location.hostname
+ * 18- location.pathname
+ * 19- location.host
+ * 20- location.port
+ * 21- location.reload()
+ * 22- location.assign('url')  <= saev information
+ * 23- location.replace('url')
+ *
+ * 23- history.back()
+ * 24- history.forward()
+ * 25- history.go()
+*/
+
+//window.scroll({
+//    left: 200,
+//    top: 300,
+//    behavior: 'smooth'
+//});
+//window.scroll(x,y);
+
+
+
+//document.body.style.height = '2000px';
+//console.log(scrollY);
+
+//console.log(screen.width);
+//console.log(screen.height);
+//console.log(screen.availHeight);
+//console.log(screen.colorDepth);
+//console.log(screen.orientation.type);
+//console.log(screen.left);
+//console.log(screen.top);
+
+
+
+//url('https:// <= http-protocolwww.instagram.com/  <= Host-name abdelrahman_noufal/ <= path-name'); <= href

@@ -1,0 +1,115 @@
+//DOM <= document object model
+
+/*
+ * 1- document.getElementById('')
+ * 2- document.getElementsByClassName('') <= save elements in array
+ * 3- document.getElementsByClassName('')[index to select elemnt]
+ * 4- document.getElementsByTagName('') <= save elements in array
+ * 5- document.getElementsByTagName('')[]
+ * 6- document.querySelector('selectors same thing in css')
+ * <= select on elemnt only first element to run code
+ * 7- document.querySelectorAll('selectors same thing in css')
+ * get all elemnts and save elements in array
+ * 8- document.querySelectorAll('selectors same thing in css')[index]
+ * 9- document.body
+ * 10- document.title
+ * 11- document.images <= save img in array
+ * 12- document.images.src  and eny attripute
+ * 13- document.images.alt  and eny attripute
+ * 14- document.links   <= save links in array
+ * 15- document.links.href and eny attripute
+ * 16- document.forms <= save forms in array
+ * 17- document.element.classList
+ *
+ * 
+*/
+//let h1 = document.getElementById('hd');
+//
+//h1.className = 'Emad';
+
+//console.log(h1.hasAttributes()); // <= ááÊÃßÏ ãä æÌæÏ ÇÊÑíÈíæÊÓ Ýí ÇáÚãæã
+//onsole.log(h1.hasAttribute('')); // <= ááÊÃßÏ ãä æÌæÏ ÇÊÑíÈíæÊ ãÚíä
+//console.log(h1.attributes); // <= ÚÑÖ ÌãíÚ ÇáÇÊÑÈíæÊ ÇáÎÇÕ ÈÇáÚäÕÑ
+//console.log(h1.attributes[index of attribute]);
+//console.log(h1.setAttribute('attribute', 'new value'));
+//h1.removeAttribute('alt')
+
+
+//let div = document.getElementById('div');
+//console.log(div.outerHTML);  // outerHTML <= all element container and child
+//console.log(div.innerHTML);  // inerHTML <= get all childs in element
+//div.outerHTML = '<p>Hello</p>';
+
+//div.innerHTML = '<p>Hello</p>';
+//div.innerText = 'anfbnolodb';
+//div.outerText = 'anfbnolodb';
+//div.textContent = 'etyue';
+//remove()
+//let element = document.getElementById('second');
+//
+//console.log(element.previousElementSibling); // previousElementSibling <<= ÇáÚäÕÑ ÇáÓÇÈÞ
+//console.log(element.previousSibling); // previousSibling Çí Ôì ÓÇÈÞ
+//console.log(element.nextElementSibling); // nextElementSibling next element
+//console.log(element.parentElement); // parent element
+
+
+
+/*let container = document.getElementById('container');
+container.innerText = 'hello javascript';*/
+//container.style.backgroundColor = 'red';
+//container.style.color = 'white';
+//container.style.padding = '20px';
+//container.style.fontSize = '25px';
+//container.style.fontWeight = 'bold';
+
+
+//container.style.cssText = `
+//    background-color: green;
+//    paddig: 20px;
+//    color: white;
+//    font-size: 30px;
+//    font-weight: bold
+//`;
+
+
+
+//container.style.removeProperty('');
+
+/*
+ * way one
+ * element.style.enyProperity = value;
+ *
+ *
+ * way two
+ * element.style.cssText = `code css`;
+ *
+ *
+ * way three
+ * element.style.setProperty('property','vale','important');
+*/
+
+//creat element by js
+
+//document.body.innerHTML = `
+//<p>hello java script</p>
+//<p>say Hi</p>
+//<a href="https://www.google.com">Link</a>
+//`;
+
+
+// creat element
+//let container = document.createElement('div');
+//let head = document.createElement('h2');
+//let link = document.createElement('a');
+
+//let coctent = document.createTextNode('hello world');
+//
+//head.appendChild(coctent);
+//link.href = 'href="https://www.google.com';
+//link.innerHTML = 'Link2';
+//
+//container.appendChild(head);
+//container.appendChild(link);
+//
+//document.body.appendChild(container);
+

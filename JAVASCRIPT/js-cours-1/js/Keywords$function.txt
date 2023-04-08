@@ -1,0 +1,45 @@
+//this keyword
+/*
+ * this  ÊÚæÏ Úáí Çá ÇæÈÌßÊ ÇáÎÇÕ ÈãßÇäåÇ
+ * "use strict"; <= ÇáæÖÚ ÇáÕÇÑã ÚÏã Úãá ÇÌäæÑ áÇí ÎØÁ ÈÑãÌí
+*/
+
+
+keyword 
+1- return
+2- this
+3- in 
+
+
+
+function
+1- parseInt()
+2- parseFloat()
+3- after()
+4- before() 
+5- append()
+6- clear()
+7- add()
+8- remove()
+9- toggle()
+10- setTimeout()
+11- clearTimeout()
+12- setInterval()
+13- clearInterval()
+14- freeze()
+15- is()
+16- seal()
+17- isSealed()
+18- isFrozen()
+
+
+
+
+
+
+//functions for classes
+/*
+ * add();
+ * remove();
+ * toggle();
+*/

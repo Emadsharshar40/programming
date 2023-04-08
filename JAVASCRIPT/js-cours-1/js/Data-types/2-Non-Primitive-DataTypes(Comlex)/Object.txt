@@ -1,0 +1,48 @@
+
+
+
+//Object Data type\\
+
+1- way one ****
+let car = {
+    // prorirty
+    title: 'BMW',
+    color: 'white',
+    price: 500000,
+    model: 2023,
+
+    // methods
+    hello:function () {
+        return 'Hello';
+    },
+
+};
+***************
+let car = {};
+
+car.name = 'ahmed';
+
+user.firstName = 'Ahmed';     «÷«›Â «·ŒÊ«’ Ê«·œÊ«· ··«Ê»Ãﬂ  „‰‰ «·Œ«—Ã
+user['firstName'] = 'omar';
+user.hello = function () {
+    return 4;
+}
+***************
+let user = new String();
+let user = new Number();
+let user = new Boolean();
+let user = new Object({  });
+***************
+<= œ„Ã «·Ê»Ãﬂ 
+let user2 = Object.create(user, {  // <= copy Object in new object
+    price: {value: 20},
+});
+
+let a4 = Object.assign(a1,a2,a3,{  <= œ„Ã «·Ê»Ãﬂ 
+    num: 0,
+});
+
+
+
+
+

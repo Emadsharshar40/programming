@@ -1,0 +1,26 @@
+new Date();
+Date Methods:
+1- getDate()          getUTCDate()           <= Date of the month 1>31
+2- getDay()           getUTCDay()            <= Day of the week 0>6
+3- getFullYear()      getUTCFullYear()       <= Get The Ful Year
+4- getHours()         getUTCHours()          <= Get Hours  from 0 to 59
+5- getMinutes()       getUTCMinutes()        <= get minutes from 0 to 59
+6- getSeconds()       getUTCSeconds()        <= get seconds from 0 to 59
+7- getMilliseconds()  getUTCMilliseconds()   <= from 0 to 999
+8- getTime()          getUTCTime()           <= Number of Milliseconds from 1970 or Specific Date
+9- getTimezoneOffset()  <= UTC vs my local time in munets  UTC<= universal time cordenate
+
+Start setDate
+1- setDate()          setUTCDate()           <= day[Req]    
+2- setFullYear()      setUTCFullYear()       <= year[Req], month[opt], day[opt]
+3- setHours()         setUTCHours()          <= hours[Req], min[opt], second[opt], millisecond[opt]
+4- setMinutes()       setUTCMinutes()        <= min[Req], second[opt], millisecond[opt]
+5- setSeconds()       setUTCSeconds()        <= second[Req], millisecond[opt]
+6- setMilliseconds()  setUTCMilliseconds()   <= äÖíÝ Úáí ÇáæÞÊ ÇáÌÇáí
+7- setMonth()         setUTCMonth()          <= month[Req], day[opt]
+
+ * Date.now(); // milli from 1970
+ * Date.parth();   // input date
+ * toISOString(); ÊÍæíá ÇáÏíÊ ÇáÚÇÏí Çáí ÇáÇíÒæ
+ * toDateString();
+ * toTimeString()
