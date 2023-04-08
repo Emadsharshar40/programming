@@ -1,0 +1,25 @@
+<doctype html>
+<html>
+  <head>
+     <style>
+       .test
+       {
+         coler:red
+       }
+       .test2
+       {
+         coler:blue
+       }
+     </style>
+  </head>
+  <body>
+    <div class="test">
+      this is div1
+    </div>
+    <div class="test2">
+      this is div 2
+    </div>
+
+    <p class="test">this is p</p>
+  </body>
+</html>

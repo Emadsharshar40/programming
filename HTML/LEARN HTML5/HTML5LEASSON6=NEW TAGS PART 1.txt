@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html>
+      <head>
+         <meta charset="UTF-8"/>
+         <meta name="discription" content="vajvnialn"/>
+         <title> </title>
+         <link >
+         <script> </script>
+         <style> 
+
+         </style>
+      </head>
+      <body>
+
+         <header>
+            <h1>HTML5 Course</h1>
+         </header>
+ 
+         <nav>
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>services</li>
+               <li>contact us</li>
+            </ul>
+         </nav>
+         
+         <article>
+            <header>
+               <h3> Article #01 </h3>
+               <p>created by <span> osama </span> on <span> 25/10/2014 </span> </p>
+            </header>
+            <header>
+               <section>
+               <p>created by <span> osama </span> on <span> 25/10/2014 </span> </p>
+               </section>
+            </header>
+            <p>This article content number #01</p>
+         </article>
+         <article>
+            <header>
+               <h3> Article #02 </h3>
+               <p>created by <span> osama </span> on <span> 25/10/2014 </span> </p>
+            </header>
+            <p>This article content number #02</p>
+         </article>
+         <article>
+            <header>
+               <h3> Article #03 </h3>
+               <p>created by <span> osama </span> on <span> 25/10/2014 </span> </p>
+            </header>
+            <p>This article content number #03</p>
+         </article>
+
+         <footer>
+            Copyright 2022 &copy; All Right Reserved
+         </footer>
+         
+      </body>
+</html>

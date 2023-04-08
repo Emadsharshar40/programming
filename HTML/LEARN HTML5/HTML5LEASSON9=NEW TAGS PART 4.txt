@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+      <head>
+            <meta charset="UTF-8"/>
+            <meta name="discription"content="dvndsvk"/>
+            <title> </title>
+            <link >
+            <script>
+ 
+            </script>
+            <style>
+
+            </style>
+      </head>
+      <body>
+
+            <section>
+                     <p>
+                       <details>              attrebuts  open
+                        <summary> poulare web <summary/>
+                        <ul>
+                           <li><a href="htts://www.w3.com/">W3.com</a></li>
+                           <li><a href="htts://www.wekibedia.com/">wekibedia.com</a></li>
+                           <li><a href="htts://www.udemy.com/">udemy.com</a></li>
+                           <li><a href="htts://www.wikihow.com/">wikihow.com</a></li>
+                        </ul>
+                     </details> 
+                  </p>
+            </section> 
+            <section>
+                    <p> ciaicn </p>
+                       <div class=";ong-link">
+                          https://wwww.vdmcomcs.com/cm,  <wbm> opvsmpocphp?id=300&cat=200&esce </wbm> s=mainsection                brake 
+                       </div>
+            </section>
+  
+      </body>
+</html>

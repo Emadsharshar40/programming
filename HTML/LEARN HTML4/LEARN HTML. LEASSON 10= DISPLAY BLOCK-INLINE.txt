@@ -1,0 +1,49 @@
+<doctype html>
+<html>
+  <head>
+                                    <style>
+                                       span
+                                       {
+                                         color:#f00;
+                                         font-weight:bold
+                                       }
+                                    </style>
+  </head>
+  <body>
+    <a href="#">link1</a>
+    <a href="#">link1</a>          IN LINE
+    <a href="#">link1</a>
+    <a href="#">link1</a>
+<br>
+    <img src="steve.jpg"alt="steve">
+    <img src="steve.jpg"alt="steve">      IN LINE
+    <img src="steve.jpg"alt="steve">   
+    <img src="steve.jpg"alt="steve">
+<br>
+    <span> span1 </span>
+    <span> span2 </span>
+    <span> span3 </span>         IN LINE
+    <span> span4 </span>
+<br>
+                                      <p> this is <span> paragraph </span> </p>
+    <p> this is paragraph </p>
+    <p> this is paragraph </p>     BLOCK
+    <p> this is paragraph </p>
+
+    <h1> head </h1>
+    <h2> head </h2>        BLOCK
+<br>
+    <div> this is div </div>
+    <div> this is div </div>   
+    <div> this is div </div>       BLOCK
+    <div> this is div </div>
+
+     <div class="chapter1">
+        <h1> life </h1>
+        <p> i love evre think </p>
+        <img src="steve.jpg"wedth="50" height="50" alt="steve"/>
+     </div>
+ 
+
+  </body>
+</html>

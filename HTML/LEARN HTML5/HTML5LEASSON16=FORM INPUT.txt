@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8"/>
+        <meta name"discreption" content="sdcnsi"/>
+        <title> Output </title> 
+        <link >
+        <script>
+
+        </script>
+        <style>
+ 
+        </style>  
+     </head>
+     <body>
+	<div>
+           <article>
+              <header>
+                 <h3> Article about using new form input filed </h3>
+                 <p> created by EMAD sharshar </p>
+              </header>
+              <section>
+                 <p> new input filed </p>
+                 <form>
+                    <lable>color</lable>
+                    <input type="color" name="theme" value="#00000F">
+                    <lable>range</lable>
+                    <input type="range" name="choose" min="0" max="10" step="25" value="start 30983401923">
+                    <lable>number</lable>
+                    <input type="number" min="0" max="30">
+                    <lable>email</lable>
+                    <input type="email" name="email">
+                    <lable>search</lable>
+                    <input type="search" name="search">
+                    <lable>url</lable>
+                    <input type="url" name="link">
+                    <lable>tel</lable>
+                    <input type="tel" name="telphone"> íÏÚã ÓÝÇÑí ÝÞØ
+                    <lable>time</lable>
+                    <input type="time" name="timeing">
+                    <lable>datetime</lable>
+                    <input type="datetime=local" name="datetime">
+                    <lable>date</lable>
+                    <input type="date" name="date">
+                    <lable>month</lable>
+                    <input type="month" name=""month>
+                    <lable>week</lable>
+                    <input type="week" name="week">
+                    <input type="submet" value="send">
+                 </form>   
+              </section>
+           </article>
+        </div>
+     </body>
+</html>

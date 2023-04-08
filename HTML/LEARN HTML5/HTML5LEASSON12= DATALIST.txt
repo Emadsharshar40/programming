@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset=""UTF-8 />
+         <meta name="discreption" content="nf a odfkn" />
+         <title> </title>
+         <link >
+         <script>
+
+         </script>
+         <style>
+
+         </style> 
+      </head>
+      <body>
+         <aside>
+         <section>
+            <form>
+               <input list="browsers">
+               <datalist id="browsers">
+               <option value="chrom">
+               <option value="fire fox">
+               <option value="opera">
+               <option value="spark browes">
+               <option value="enternet explorer">
+               </datalist>
+            <input type="submet" value="choose">
+            </form>
+         </section>
+         </aside>
+      </body>
+</html>

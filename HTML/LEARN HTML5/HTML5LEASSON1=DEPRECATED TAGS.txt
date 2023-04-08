@@ -1,0 +1,37 @@
+<DOCTYPE html>
+<html>
+      <head>
+
+
+
+
+
+      </head>
+      <body>
+
+          <!-- deprecated tags -->       tags not avilable
+          
+          [acronym]     new <abbr title="bhpsihp9i">html</abbr>     Џ—нЁ нўе— Џбн я«ге гЏнде    
+
+          [applet]     new <object>pdf</object>
+
+          [base font]   new css
+ 
+          [big]    new <span> </span> css
+
+          [center]   new <div> </div> css
+
+          [dir]   new  <ul> </ul>  or  <ol> </ol>
+
+          [font]   css
+
+          [frameset] 
+
+          [strike]    css
+
+          [TT]    css
+
+       study fromk browser               scearch in google = mdn html elements
+
+      </body>
+</html>

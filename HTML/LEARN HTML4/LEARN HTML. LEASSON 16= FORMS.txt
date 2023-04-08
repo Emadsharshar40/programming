@@ -1,0 +1,104 @@
+<DOCTYPE html>
+<html>
+  <head>
+
+
+  </head>
+  <body>
+
+    <form name="register" action="backend" method="post or get backend">
+
+
+       <fieldset>
+       <legend>perssonal information</legend>
+
+       <lable>username</lable>
+       <input type="text" name="username"  value="ﬂ·„Â Ã«Â“Â  ŸÂ— ›Ì «·Õﬁ·" placeholder="type your name" maxlength="20">       maxlength  «·Õœ «·ﬁ’Ì ··Õ—Ê›
+
+       <br>
+
+       <lable>password</lable>
+       <input type="password" name="password">
+
+       </fieldset>
+
+       <br>
+
+       <lable>upload your Cv</lable>
+       <input type="file">   
+        
+
+       <br>
+
+       <input type="checkbox">
+       <lable>remember me</lable>
+
+       <br>
+
+       <input type="hidden" value="testing">
+	
+       <br>
+
+
+       <select name="time" disabled size="2" multible>
+    
+          <optgroup lable="near time">
+
+             <option disabled size="1" value="1" selected> now </option>
+             <option> tomorrow </option>
+             <option> after week</option>
+              
+          </optgroup>
+          <optgroup lable="far time" disabled select>
+
+             <option> year </option>
+             <option> 10year </option>
+             <option> 20year </option>
+	 							
+          </optgroup>			
+
+       </select>        
+
+       <input type="button" name="Say Hello" value="Say Hello">
+
+       <input type="submit" value="sign up">
+
+       <input type="reset" value="eny word another reset">
+
+
+
+       <input type="image" src="photo" alt="submet">
+
+       <br>   
+
+   
+       <lable> choose your browser</lable> <br>
+       <input type="radio" name="browser" value="chrome"> GOOgle chrome <br>
+       <input type="radio" name="browser" value="fire fox"> mozilla fire fox <br>
+       <input type="radio" name="browser" value="opera">opera <br>
+
+       <br>         
+
+       <lable> choose your mobile</lable> <br>
+       <input type="radio" name="mobile" value="iphone"> iphone <br>
+       <input type="radio" name="mobile" value="samsung"> samsung <br>
+       <input type="radio" name="mobile" value="Nokia"> Nokia <br>
+
+       <br>
+
+       <laple> your message </laple> <br>
+       <textarea rows="6" cols="60" readonly>name is</textarea>  ›ﬁÿ     ··ﬁ—«∆Â
+
+       <br>
+
+       
+     
+
+
+
+
+    
+   
+    </form>
+  </body>
+</html>

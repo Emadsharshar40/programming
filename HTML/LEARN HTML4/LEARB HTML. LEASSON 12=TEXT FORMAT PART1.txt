@@ -1,0 +1,15 @@
+<DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <p>
+      i love table tinss and <b>chess</b> and soprts spicially body billding   bulk text
+      i love table tinss and <i>chess</i> and soprts spicially body billding   drift text or italic text
+      i love table tinss and <small>chess</small> and soprts spicially body billding   small text
+      i love table tinss and <strong>chess</strong> and soprts spicially body billding   bulk text
+      i love table tinss and <em>chess</em> and soprts spicially body billding  italik text
+    </p>
+  </body>
+<html>

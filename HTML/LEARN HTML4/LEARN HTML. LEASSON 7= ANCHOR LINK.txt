@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title> links </title>
+  </head>
+  <body>
+    <a href="http://www.facebook.com/">facebook</a>
+    <a href="http://www.facebook.com/"target="_blank">facebook</a> NEW TAB
+    <a href="http://www.facebook.com/"target="_self">facebook</a>  SAME TAB
+    <a href=""></a> standard
+  
+   <a href="#google">new story</a>
+   <p>this is my story</p>
+   <p>this is my story</p>
+   <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p>this is my story</p>												   <p>this is my story</p>                                                                                       
+   <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p id="google">this is my story</p>                                                    
+  </body>
+</html>

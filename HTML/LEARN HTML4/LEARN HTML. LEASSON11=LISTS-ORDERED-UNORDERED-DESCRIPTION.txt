@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+  <head>
+     
+  </head>
+  <body>
+   <h1>unordered list</h1>
+   <ul>  list
+     <li>html</li>
+     <li>css</li>
+     <li>javascript</li>     list unordered
+     <li>jquery</li>
+   </ul>
+
+   <h1>ordered list</h1>
+     <ol type="Ôßá ÇáÊÑÞíã">       <ol start="ÈÏÇíå ÇáÊÑÞíãã">
+       <li>learn html</li>
+       <li>learn css</li> 
+       <li>learn javascript</li>
+       <li>learn php</li>
+     </ol>
+
+ÊÝÑíÚå
+      <li>learn html</li>
+       <li>learn css</li> 
+       <li>learn javascript</li>
+       <li>learn php
+            <ul>
+              <li> aklvkdjivivsasf </li>
+              <li> aa;v v iobifkns </li>
+              <li> v bdolsvivniupn </li>
+              <li> sff sonivibnfddn
+                 <ol>
+                   <li>svdoieovn</li> 
+                   <li>vsdkks rnvn</li>
+                   <li>svsvncunvdfvvnui</li>
+                   <li>vd vjn</li>
+                 </ol>
+              </li>
+            </ul>
+       </li>
+
+          <h2>discription list</h2
+          <dl>
+             <dt> htnl </dt>
+               <dd>good language</dd> difintoin description
+               <dd>Easy learning</dd> 
+               <dd>very use ful</dd>
+
+             
+             <dt>css</dt>      difintoin title     
+               <dd>fast learn</dd>
+               <dd>bla bla bla </dd>
+         </dl>
+
+  </body>
+</html>

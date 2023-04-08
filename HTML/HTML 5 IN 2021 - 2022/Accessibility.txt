@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <title></title>
+        <link >
+        <script></script>
+        <style>
+ 
+        </style>               
+     </head>
+     <body>
+       <!-- ARIA => ACCESSABLE RETCH ENTERNET APPLECATION -->  
+     </body>
+</html>

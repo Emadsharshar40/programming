@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset="UTF-8" />
+         <meta name="discreption" content="vmpm" />
+         <title> </title>
+         <link >
+         <script>
+
+         </script>
+         <style>
+
+         </style>
+      </head>
+      <body>
+         <p> this is a new story in <time datetime="2022-2-25" 16:30:14>oct,25th,2022</time> </p>
+         <dialog> this is a dilog from html5 </dialog>
+
+         <aside>
+         <section>
+            <h3> top members</h3>
+            <ul>
+               <li> emad            :90  point </li>
+               <li> fares           :30  point </li>
+               <li> ahmed           :-20 point </li>
+               <li> abdelrahman     :50  point </li>
+               <li> ксэ                :70  point </li>     xxxxxx Rhong
+               <li> <bdi> ксэ </bdi> :80 point  </li> Rhight
+            </ul>
+         </section>  
+         </aside>
+
+      </body>
+</html>

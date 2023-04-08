@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8">            
+        <meta name="discreption" content="vnvisacvn">
+        <title> </title>
+        <link >
+        <script>
+          
+        </script>
+        <style>
+
+        </style> 
+     </head>
+     <body>
+        <div>
+           <atricle> 
+              <header>
+                 <h3>Form attributes</h3>
+                 <p> created by emad sharshar </p>
+              </header>
+              <section>
+                 <p>new form article</p>
+                 <form  id="main-form" action="backend" method="get or post" enctype="äæÚ ÇáÊÔÝíÑ" novalidate > 
+ 
+                    <lable>username</lable>
+                    <input type="text" name="username" disabled required autofocus="on">
+
+                    <lable>E-mail</lable>
+                    <input type="email" name="email" autocomplete="off">
+
+                    <input type="submet" value="default submet">
+                    <input type="submet" formaction="other.php" formmethod="post or get" value="other submet">
+                    <input type="submet" formnovalidate value="submet wethout validation">
+                    <input type="submet" formtarget="_blank" value="submet in new tab">
+                 </form>
+
+                 <input type="text" name="nickname" form="main-form">
+              </section>
+           </article>
+        </div>
+     </body>
+</html>

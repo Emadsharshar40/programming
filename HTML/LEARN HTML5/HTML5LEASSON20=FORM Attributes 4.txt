@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="vbsodkln" />
+        <title> </title>
+        <link >
+        <script>
+
+        </script>
+        <style>
+
+        </style> 
+     </head>
+     <body>
+        <div>      
+           <article>
+              <form>
+    
+                 <lable> Number </lable>  
+                 <input type="number"name="number" min="5" max="20" step="6">
+                 
+                 <lable> pattern </lable> 
+                 <input type="text" pattern="[A-Za-z]{6}" required >    email or text or search or tel or url
+                  
+                 <lable> read only </lable> 
+                 <input type="text" name="read" value="Emad-read" read only>
+
+                 <lable> disabled </lable> 
+                 <input type="text" name="dis" value="Emad-dis" disabled>   „‘ »  »⁄  
+                           
+              </form>                
+           </article>                
+        </div>           
+     </body>
+</html>

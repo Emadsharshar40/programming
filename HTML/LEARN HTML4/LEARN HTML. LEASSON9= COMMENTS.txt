@@ -1,0 +1,16 @@
+<doctype html>
+<html>
+  <head>
+    <title> comment </title>
+  </head>
+  <body>
+    <!-- this is normal paragraph--> ctrl3 ÇÐÇ ‗Çה דÍÑÑ ÇבÇ‗זÇÏ וז ‗זדזÏז ÝםÊד Úדב Çב‗זדםהÊ ÈÇÓÊÎÏÇד 
+   וÐÇ ÇבהÕ בÇ םÙוÑ בבדÓÊÎÏד זבÇ‗ה םÙוÑ בבדÈÑדÌ זםÊד ÇÓÊÎÏÇדו Ýם ÇבÇÑÔÇÏÇÊ
+
+<img src="stve.jpg"alt="steve"width="100"high="100">
+
+
+ 
+    <p> this is normal paragraph </p>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8"/>
+        <meta name"discreption" content="sdcnsi"/>
+        <title> Output </title> 
+        <link >
+        <script>
+
+        </script>
+        <style>
+ 
+        </style>
+     </head>
+     <body>
+        <article>
+           <header>
+              <h3> Article About useing &lt; video &gt; </h3>
+              <p> watch this video </p>
+           </header>
+           <section>
+              <p> html5 video </p>
+              <video controls wedth="320" hight="300" autoplay loop muted poster="cat.jpg" src="" preload="auto or none or metadata">
+                 <source src="011.mp4" type="video/mp4">
+                 <source src="011.0gg" type="video/ogg">
+                 <source src="011.webm" type="video/webm">
+                 Your browser Not support video technology
+                 <track src="emad.vtt" kind="subtitles or captions or disception or shapters or metadata" srclang="iso code languge" lable="english"> 
+              </video>
+           </section>
+        </article>   
+     </body>
+</html>

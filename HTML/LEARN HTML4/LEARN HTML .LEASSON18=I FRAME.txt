@@ -1,0 +1,13 @@
+<DOCTYPE html>
+<html>
+  <head>
+ 
+
+  </head>
+  <body>
+
+     <iframe name="w3.org" src="http://www.w3.org" width="700" height="400" scrolling="no,tes,outo"></iframe>
+     <iframe name="w3.Schools" src="https://www.w3schools.com/" width="700" height="400"></iframe>
+
+  </body>
+</html>

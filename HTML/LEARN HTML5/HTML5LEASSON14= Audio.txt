@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="UTF-8"/>
+         <meta name"discreption" content="sdcnsi"/>
+         <title> Output </title> 
+         <link >
+         <script>
+
+         </script>
+         <style>
+ 
+         </style>
+     </head>
+     <body>
+        <section>
+           <h3> today's Audio </h3>
+           <audio controls autoplay loop muted preload="auto or none or metadata">
+              <source src="" type="MINE TYPE">
+              <source src="" type="MINE TYPE">
+              Your browser Not support audio technology
+           </audio>
+        </section>
+     </body>
+</html>

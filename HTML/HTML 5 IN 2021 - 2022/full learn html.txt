@@ -1,0 +1,360 @@
+﻿
+<!DOCTYPE html>
+<html lag="en">
+     <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="obodksd fliajciio"/>
+        <link >
+        <script>
+
+        </script>
+        <style>
+
+        </style>
+     </head>
+     <body>
+        <!-- formatting elements -->
+              <p> i love <b>chess</b> </p>
+	<p> i love <strong>chess</strong> </p>
+	<p> i love <i>chess</i> </p>
+	<p> i love <em>chess</em> </p>
+	<p> i love <mark>chess</mark> </p>
+	<p> i love <u>chess</u> </p>
+	<p> i love <small>chess</small> </p>
+	<p> i love <del>chess</del> </p>
+              <p> i love <s>chess</s> </p>
+	<p> i love <ins>chess</ins> </p>
+	<p> i love <sup>chess</sup> </p>
+	<p> i love <sub>chess</sub> </p>
+-------------------------------------------------
+     <!-- links anchor tag -->                       
+        <a href="https://www.google.com" title="go to search in google">google</a> <br>
+	<a href="https://www.twitter.com" target="_blank">twitter</a>
+        <a href="test.html" title="open test page">test</a>
+        <a href="#emad">paragraph emad</a>                 
+        <a href="mailto:emadmostafusharshar333@gmail.com">E-mail</a>
+     <hr>                                                       
+        <p>avbcbkdjbayirgbjiabckdbsakjcva</p>            
+        <p>avbcbkdjbayirgbjiabckdbsakjcva</p>             
+	<p>avbcbkdjbayirgbjiabckdbsakjcva</p>             
+	<p>avbcbkdjbayirgbjiabckdbsakjcva</p>              
+	<p>avbcbkdjbayirgbjiabckdbsakjcva</p>           
+	<p>avbcbkdjbayirgbjiabckdbsakjcva</p>          
+	<p id="emad">avbcbkdjbayirgbjiabckdbsakjcva</p>
+	<p>avbcbkdjbayirgbjiabckdbsakjcva</p>      
+-------------------------------------------------
+      <!-- embed =>> for pdf files and gif -->
+
+     <embed src="1.pdf" width="" height="" />
+     <embed src="1.gif" width="" height="" />
+-------------------------------------------------
+     <!-- image -->                                       
+        <img src="copy past from google" alt="">          
+        <img src="image/cat.jpg" alt="">                
+	<img src="../imagecat.jpg" alt="">                  
+        <img src="" alt="logo bmw">                           
+        <img src="" alt="" width="" height="">          
+-------------------------------------------------
+     <!-- lists -->
+        <!-- ul => unorderd list , ol => orderd list , li => list items -->
+         
+        <ul>
+           <li>html</li>
+           <li>css</li>
+	   <li>javascript</li>
+	   <li>
+              php
+              <ul>
+                 <li>Angular</li>
+		 <li>Reactjs</li>
+		 <li>Vuejs</li>
+              </ul> 
+            </li>
+        </ul>
+        
+        <ol reversed start="40" type="A">   <!-- reversed => ��� ������� -->
+           <li>html</li>
+           <li>css</li>
+	   <li>javascript</li>
+	   <li>
+              php
+              <ol>
+                 <li VALUE="90">Angular</li>
+		 <li>Reactjs</li>
+		 <li>Vuejs</li>
+              </ol> 
+            </li>
+        </ol> 
+
+        <!-- discreption list = dl , dt , dd -->       
+        
+        <dl>
+           <dt>html</dt>
+           <dd>language of the web</dd>
+           <dd>the firt lan</dd>
+           <dt>css</dt>
+           <dd>color language</dd>
+           <dd>css3</dd>
+        </dl>
+--------------------------------------------------
+        <!-- table  colspan="number"-->
+
+        <table>
+   <caption>skills</caption>
+   <thead>
+    <tr>
+      <td>Q</td>
+      <td>skill1</td>
+      <td>skill2</td>
+      <td>skill3</td>
+      <td>skill4</td>
+      <td>skill5</td>
+      <td>skill6</td>
+      <td>skill7</td>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+      <td>skill</td>
+      <td>programming</td>
+      <td>analycise</td>
+      <td>chess</td>
+      <td>genatix</td>
+      <td>engnering</td>
+      <td>fast learnning</td>
+      <td>learn language</td>
+    </tr>
+    <tr>
+      <td>power of skill</td>
+      <td>4%</td>
+      <td>60%</td>
+      <td>78%</td>
+      <td>89%</td>
+      <td>50%</td>
+      <td>90%</td>
+      <td>30%</td>
+    </tr>
+    <tr>
+      <td>date of learnning</td>
+      <td>2022<sup>th</sup></td>
+      <td>2016<sup>th</sup></td>
+      <td>2010<sup>th</sup></td>
+      <td>2003<sup>th</sup></td>
+      <td>2011<sup>th</sup></td>
+      <td>2017<sup>th</sup></td>
+      <td>2011<sup>th</sup></td>
+    </tr>
+   </tbody>
+   <tfoot>
+    <tr>
+      <td>languages</td>
+      <td>English</td>
+      <td>germany</td>
+      <td>spanish</td>
+      <td>tourky</td>
+      <td>franc</td>
+      <td>japanes</td>
+      <td>chines</td>
+    </tr>
+   </tfoot>
+  </table>
+
+-----------------------------------------------------
+  <!-- hr => horizontal rule , br => break line, span -->
+    
+    <span>emadmostafusharshar333</span>
+-----------------------------------------------------
+   <!-- div -->
+   is a contaner
+-----------------------------------------------------
+   <!-- Entitis -->
+
+   <!-- html Entitis list search in google -->
+-----------------------------------------------------
+   <!-- semantic elements -->
+
+   <header>
+      <h1>head of website</h1>
+   </header>
+   <nav>
+   links
+   </nav>
+   <section>
+      <section></section>
+      <aside></aside>
+   </section>
+   <footer>
+
+   </footer>
+------------------------------------------------------
+   <section>
+      <figure>
+         <img src="" alt="">
+         <figcaption> name image </figcaption>
+      </figure>
+   </section>
+-------------------------------------------------------
+    <!-- code => code programming, pre => supports spaces, iframe => creat a vedio -->
+    <pre>
+       <code>
+       
+         
+       
+       </code>
+    </pre>
+    <iframe src="" width="" height=""></iframe>
+-------------------------------------------------------
+     <!-- AUDIO -->    
+ 
+     <audio controls autoplay loop muted preload="auto or none or metadata">
+              <source src="" type="MINE TYPE">
+              <source src="" type="MINE TYPE">
+              Your browser Not support audio technology
+           </audio>
+--------------------------------------------------------
+     <!--VEDIO--> 
+  <video controls wedth="320" hight="300" autoplay loop muted poster="cat.jpg" src="" preload="auto or none or metadata">
+                 <source src="011.mp4" type="video/mp4">
+                 <source src="011.0gg" type="video/ogg">
+                 <source src="011.webm" type="video/webm">
+                 Your browser Not support video technology
+                 <track src="emad.vtt" kind="subtitles or captions or disception or shapters or metadata" srclang="iso code languge" lable="english"> 
+              </video>
+---------------------------------------------------------
+    
+        <!-- Q , blockQuote , Wbr , button , Bdi => be direction isolation -->         
+ 
+         <q>my word is my have</q> حكمه
+     
+         <blockquote> this is my word </blockquote>
+    
+         <button> click controls by java script </button>
+ 
+         lcaiscn iphttp/ sdmvoakmss, <wbr> mzfvgnsrnvznj </wbr>;dafkjahg;avdnvxcnvdpio
+
+          <p> go to <bdi> السلام </bdi> </p>  تصحيح الكلام العربي بعد التداخل في اللغه النجليزيه
+-----------------------------------------------------------
+
+        <!--form disabled => لا يتم ارسال البانات ولا يمكن التعديل عليها readonly => لل قراءه فقط والبانات بتتيعت  autofocus => focus at thy type -->
+ 	
+	<form> 
+           <p></p>
+           <div> </div>
+        </form>
+
+        <form action="backend" method="get or post or dialog" novalidate>
+         ---------
+        <fieldset>
+           <legend>perssonal information</legend>
+           <div>
+              <lable>username</lable> 
+              <input type="text" required placeholder="type your name" name="user" disabled>
+           </div>
+           <br>
+           <div>
+              <lable>password</lable>
+              <input type="password" required name="password" minlength="10" maxlength="20"> <!-- required => must tipe -->
+           </div>
+           <br>
+           <div>
+              <lable>E-mail</lable>
+              <input type="email" required name="email" value="emad@3.com" readonly>
+           </div>
+           <br>
+           <div>
+              <lable>color</lable>
+              <input type="color" name="color" autofocus>
+           </div>
+           <br>
+           <div>
+              <lable>Range</lable>
+              <input type="Range" name="number" min="0" max="10" step="8" value="7">
+           </div>
+	   <br>
+           <div>
+              <lable>number</lable>
+              <input type="number" >
+           </div>
+        </fieldset>
+        ---------
+           <br>
+           <div>
+              <input id="win" type="radio" name="os" value="windows" checked />
+              <lable for="win"> windows </lable>              
+           </div>
+           <div>
+              <input id="lin" type="radio" name="os" value="linux" />
+              <lable for="lin"> linux </lable>              
+           </div>
+           <div>
+              <input id="mac" type="radio" name="os" value="mac" />
+              <lable for="mac"> mac </lable>              
+           </div>
+         ---------
+             <br>
+           <div>
+              <input id="win1" type="checkbox" name="os" value="windows" checked />
+              <lable for="win1"> windows </lable>              
+           </div>
+           <div>
+              <input id="lin1" type="checkbox" name="os" value="linux" />
+              <lable for="lin1"> linux </lable>              
+           </div>
+           <div>
+              <input id="mac1" type="checkbox" name="os" value="mac" />
+              <lable for="mac1"> mac </lable>              
+           </div> 
+         ---------
+           <lable for="book">choose your book:</lable>
+           <select name="book" id="book" multiple>
+              <optgroup lable="romantic books">
+              <option value="1">book1</option> 
+              <option value="2">book2</option>
+              <option value="3">book3</option>
+              </optgroup>  
+              <optgroup lable="police books">
+              <option value="4">book4</option> 
+              <option value="5" selected>book5</option>
+              <option value="6">book6</option>
+              </optgroup>  
+           </select>
+
+           <textarea name="subject" cols="10" rows="20"></textarea>
+         -----------
+           <lable>upload your CV</lable>
+           <input type="file"/>
+           <BR>        
+           <lable>search</lable>
+           <input type="search"/>
+           <BR>            
+           <lable>links</lable>
+           <input type="url"/>
+           <BR>              
+           <lable>date</lable>
+           <input type="date"/>
+           <BR>             
+           <lable>month</lable>
+           <input type="month"/>
+           <BR>                
+           <lable>time</lable>
+           <input type="time"/>
+         -----------
+           <input list="programming" name="prog">
+           <datalist id="programming">
+              <option value="c">
+              <option value="c+">                                    
+              <option value="c++">                 
+              <option value="python">
+              <option value="html">            
+              <option value="css">                                               
+              <option value="javascript"> 
+              <option value="php">             
+           </datalist>
+         ------------
+           <br>
+           <input type="hidden" value="">
+           <input type="reset" value="Reset">           
+           <input type="submit" value="save">  
+        </form>
+     </body>
+</html>

@@ -1,0 +1,386 @@
+<html>
+      <head>
+
+         <meta charset="utf.8"/>  —„Ì“ ⁄«·„Ì Ìœ⁄„ «··€Â «·⁄—»ÌÂ Ê«·«‰Ã·Ì“ÌÂ
+         <meta name="discription"contant="nvsklnoovbivnklnvso;kanbnnf;"/> 
+         <title> page name tab </title>
+         <link rel="stylesheet"href="style css"/>
+         <script>
+            javascript
+         </script>
+         <style>
+            css langueg
+         </style>
+
+      </head>
+      <body>
+
+       <h1> our page </h1>
+
+       <p>  paragraf </p>
+
+       <a href="http:/www.google.com"target="_blank">google </a>   «·»·«‰ﬂ  Ã⁄· «·Ì‰ﬂ Ì› Õ ›Ì ’›ÕÂ ÃœÌœÂ
+
+       <img src="  img      "title="hello"> «· «Ì · ÌÃ⁄· «·’Ê—Â ·Â« «”„ Ÿ«Â— ⁄·ÌÂ« ⁄‰œ «·ÊﬁÊ› ⁄·ÌÂ« »«·„«Ê”
+       <input type="name ore passwored ore emile and more"value="">
+
+       <img src="../ /"> „‰ ⁄·Ì «·ÃÂ«“
+       <img src="imgage"alt="vrwejnid"> ›Ì Õ«·Â ⁄œ„ ŸÂÊ— «·’Ê—Â ›Â–« «·‰’ ”Ê› ÌŸÂ— »œÌ· ·Â«
+
+
+   <a href="#google">new story</a>
+   <p>this is my story</p>
+   <p>this is my story</p>
+   <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p>this is my story</p>												   <p>this is my story</p>                                                                                       
+   <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                          <p>this is my story</p>                                                                                                 <p id="google">this is my story</p>
+
+  <a href="#">link1</a>
+    <a href="#">link1</a>          IN LINE
+    <a href="#">link1</a>
+    <a href="#">link1</a>
+<br>
+    <img src="steve.jpg"alt="steve">
+    <img src="steve.jpg"alt="steve">      IN LINE
+    <img src="steve.jpg"alt="steve">   
+    <img src="steve.jpg"alt="steve">
+<br>
+    <span> span1 </span>
+    <span> span2 </span>
+    <span> span3 </span>         IN LINE
+    <span> span4 </span>
+<br>
+                                      <p> this is <span> paragraph </span> </p>
+    <p> this is paragraph </p>
+    <p> this is paragraph </p>     BLOCK
+    <p> this is paragraph </p>
+
+    <h1> head </h1>
+    <h2> head </h2>        BLOCK
+<br>
+    <div> this is div </div>
+    <div> this is div </div>   
+    <div> this is div </div>       BLOCK
+    <div> this is div </div>
+
+     <div class="chapter1">
+        <h1> life </h1>
+        <p> i love evre think </p>
+        <img src="steve.jpg"wedth="50" height="50" alt="steve"/>
+     </div>
+
+  <!-- this is normal paragraph--> ctrl3 «–« ﬂ«‰ „Õ—— «·«ﬂÊ«œ ÂÊ ﬂÊ„ÊœÊ ›Ì „ ⁄„· «·ﬂÊ„Ì‰  »«” Œœ«„ 
+   Â–« «·‰’ ·« ÌŸÂ— ··„” Œœ„ Ê·«ﬂ‰ ÌŸÂ— ··„»—„Ã ÊÌ „ «” Œœ«„Â ›Ì «·«—‘«œ« 
+
+<img src="stve.jpg"alt="steve"width="100"high="100">
+
+
+
+
+ <h1>unordered list</h1>
+   <ul>  list
+     <li>html</li>
+     <li>css</li>
+     <li>javascript</li>     list unordered
+     <li>jquery</li>
+   </ul>
+
+   <h1>ordered list</h1>
+     <ol type="‘ﬂ· «· —ﬁÌ„">       <ol start="»œ«ÌÂ «· —ﬁÌ„„">
+       <li>learn html</li>
+       <li>learn css</li> 
+       <li>learn javascript</li>
+       <li>learn php</li>
+     </ol>
+
+ ›—Ì⁄Â
+      <li>learn html</li>
+       <li>learn css</li> 
+       <li>learn javascript</li>
+       <li>learn php
+            <ul>
+              <li> aklvkdjivivsasf </li>
+              <li> aa;v v iobifkns </li>
+              <li> v bdolsvivniupn </li>
+              <li> sff sonivibnfddn
+                 <ol>
+                   <li>svdoieovn</li> 
+                   <li>vsdkks rnvn</li>
+                   <li>svsvncunvdfvvnui</li>
+                   <li>vd vjn</li>
+                 </ol>
+              </li>
+            </ul>
+       </li>
+
+          <h2>discription list</h2
+          <dl>
+             <dt> htnl </dt>
+               <dd>good language</dd> difintoin description
+               <dd>Easy learning</dd> 
+               <dd>very use ful</dd>
+
+             
+             <dt>css</dt>      difintoin title     
+               <dd>fast learn</dd>
+               <dd>bla bla bla </dd>
+         </dl>
+
+         <p>
+      i love table tinss and <b>chess</b> and soprts spicially body billding   bulk text
+      i love table tinss and <i>chess</i> and soprts spicially body billding   drift text or italic text
+      i love table tinss and <small>chess</small> and soprts spicially body billding   small text
+      i love table tinss and <strong>chess</strong> and soprts spicially body billding   bulk text
+      i love table tinss and <em>chess</em> and soprts spicially body billding  italik text
+    </p>
+
+ <p> hi man 
+   <blockquote> this is a famous word said by famous man </blockquote>  big quote
+   hi ahmed
+<br>
+   <q> learn learn learn </q>  small quote
+   </p>
+
+  <p>i love <mark>chess</mark></p>   mark=heigh lite
+   <del>chess</del> <ins> this is the right one </ins>   del=del word  ins=corriect
+   <pr>
+     i came here At S<sup>th</sup> of october5<sup>2</sup>   osss
+   <pr>
+     i came here At Sth of H<sub>2</sub>O    under osss
+   <pr>
+
+<div class="test">
+      this is div1
+    </div>
+    <div class="test2">          css
+      this is div 2
+    </div>
+
+    <p class="test">this is p</p>
+ 
+
+<table border="1">
+    <caption> this is my web skills </caption>
+    <tbody>
+      <tr>
+        <td> date </td>
+         <td>html</td>
+         <td>css</td>
+         <td>javascript</td>
+         <td>php</td>
+      </tr>
+      <tr>
+      <td>october</td>
+         <td>50%</td>
+         <td>49%</td>
+         <td>89%</td>
+         <td>38%</td>
+      </tr>
+      <tr>
+         <th> date </th>
+         <th>html</th>
+         <th>css</th>
+         <th>javascript</th>   <th></th>=bulk
+         <th>php</th>
+      </tr>
+                                                               tbody   control from css
+     <thead>
+       <tr>
+      <td>october</td>
+         <td>50%</td>
+         <td>49%</td>       thead celkt by css langaug
+         <td>89%</td>
+         <td>38%</td>
+      </tr>
+     </thead>
+   <tfoot>
+    <tr>
+      <td>october</td>
+         <td>50%</td>
+         <td>49%</td>        last line from list    
+         <td>89%</td>
+         <td>38%</td>
+      </tr>
+   </tfoot>
+  </tbody>
+
+    </table>
+
+
+     <table>
+
+        <caption>learn programming</caption>         
+        <tr>
+          <td colspan="2">programming</td>
+                                           <td>programming</td>  delate
+          <td colspan="3">web design</td>
+                                            <td>web design</td>     delate
+                                             <td>web design</td>    delate
+        </tr>
+        <tr>
+          <td>php</td>
+          <td>mySQL</td>
+          <td>html</td>
+          <td>css</td>
+          <td>java scripte</td>
+        </tr>
+     </table>
+
+  <taple> 
+      <caption>rowspan</caotion>
+      <tr>
+        <td rowspan="2">name</td>
+        <td>email</td
+      </tr>
+      <tr>
+        <td>emad</td>
+        <td>bvjkad</td>
+        <td>idnis@vsd</td>
+      </tr>
+  </table>
+  
+  <table>
+    <caption>colGroub</caption>
+    <colgroup>
+      <col span="2" style="css languge">   ‰”Ìﬁ «·«⁄„œÂ
+
+
+    </colgroup>
+    <tr>
+      <td>programming</td>
+      <td>programming</td>
+      <td>design</td>
+      <td>design</td>
+      <td>design</td>
+      <td>design</td>
+    </tr>
+    <tr>
+      <td>php</td>
+      <td>MySQL</td>
+      <td>html</td>
+      <td>css</td>
+      <td>jQuery</td>
+      <td>photoshop</td>
+    </tr>
+  </table>
+
+
+
+     <iframe name="w3.org" src="http://www.w3.org" width="700" height="400" scrolling="no,tes,outo"></iframe>
+     <iframe name="w3.Schools" src="https://www.w3schools.com/" width="700" height="400"></iframe>
+
+
+
+ emad &nbso;&nbso;&nbsp;&nbsp;&nbsp;&nbsp; sharshar         &nbsp;  space
+     
+     &lt;emad     ””Ê›  ŸÂ— ›Ì «·„ ’›Õ <emad                            &lt;  =  <
+
+     &gt;   &gt; =   >
+
+     &amp;     &amp;  = &
+
+     &cent;           
+  
+     &pound;
+    
+     &yen;
+
+     &euro; 
+
+     &copy;  copyright  
+ 
+     &reg;   trade mark
+
+
+
+
+
+
+<form name="register" action="backend" method="post or get backend">
+
+
+       <fieldset>
+       <legend>perssonal information</legend>
+
+       <lable>username</lable>
+       <input type="text" name="username"  value="ﬂ·„Â Ã«Â“Â  ŸÂ— ›Ì «·Õﬁ·" placeholder="type your name" maxlength="20">       maxlength  «·Õœ «·ﬁ’Ì ··Õ—Ê›
+
+       <br>
+
+       <lable>password</lable>
+       <input type="password" name="password">
+
+       </fieldset>
+
+       <br>
+
+       <lable>upload your Cv</lable>
+       <input type="file">   
+        
+
+       <br>
+
+       <input type="checkbox">
+       <lable>remember me</lable>
+
+       <br>
+
+       <input type="hidden" value="testing">
+	
+       <br>
+
+
+       <select name="time" disabled size="2" multible>
+    
+          <optgroup lable="near time">
+
+             <option disabled size="1" value="1" selected> now </option>
+             <option> tomorrow </option>
+             <option> after week</option>
+              
+          </optgroup>
+          <optgroup lable="far time" disabled select>
+
+             <option> year </option>
+             <option> 10year </option>
+             <option> 20year </option>
+	 							
+          </optgroup>			
+
+       </select>        
+
+       <input type="button" name="Say Hello" value="Say Hello">
+
+       <input type="submit" value="sign up">
+
+       <input type="reset" value="eny word another reset">
+
+
+
+       <input type="image" src="photo" alt="submet">
+
+       <br>   
+
+   
+       <lable> choose your browser</lable> <br>
+       <input type="radio" name="browser" value="chrome"> GOOgle chrome <br>
+       <input type="radio" name="browser" value="fire fox"> mozilla fire fox <br>
+       <input type="radio" name="browser" value="opera">opera <br>
+
+       <br>         
+
+       <lable> choose your mobile</lable> <br>
+       <input type="radio" name="mobile" value="iphone"> iphone <br>
+       <input type="radio" name="mobile" value="samsung"> samsung <br>
+       <input type="radio" name="mobile" value="Nokia"> Nokia <br>
+
+       <br>
+
+       <laple> your message </laple> <br>
+       <textarea rows="6" cols="60" readonly>name is</textarea>  ›ﬁÿ     ··ﬁ—«∆Â
+
+       <br>
+
+    </form>
+ 
+     </body>
+</html>

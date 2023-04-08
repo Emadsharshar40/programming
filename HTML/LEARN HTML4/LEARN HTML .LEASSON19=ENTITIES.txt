@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+   <head>
+
+
+   </head>
+   <body>
+
+     emad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sharshar         &nbsp;  space
+     
+     &lt;emad     ””Ê›  ŸÂ— ›Ì «·„ ’›Õ <emad                            &lt;  =  <
+
+     &gt;   &gt; =   >
+
+     &amp;     &amp;  = &
+
+     &cent;           
+  
+     &pound;
+    
+     &yen;
+
+     &euro; 
+
+     &copy;  copyright  
+ 
+     &reg;   trade mark
+
+   </body>
+</html>

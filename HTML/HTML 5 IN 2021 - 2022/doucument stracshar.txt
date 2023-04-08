@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="welcome to hi tok, social media in medil east" />
+        <title> Hi Tok </title>
+        <link rel="" href="" >
+        <script>
+
+        </script>
+        <style>
+
+        </style>
+     </head>
+     <body>
+        <!-- bla bla bla bla  -->
+        
+        
+     </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

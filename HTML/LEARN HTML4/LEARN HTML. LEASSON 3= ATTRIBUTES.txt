@@ -1,0 +1,10 @@
+<DOCTYPE html>
+<htmL>
+ <head>
+ </head>
+ 
+ <body>
+<a href="http://www.google.com" target="_blank">Google</a> › Õ «·Ì‰ﬂ ›Ì ’›ÕÂ «Œ—Ì
+<input type="password"value="new">
+ </body>
+</html>

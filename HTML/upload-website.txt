@@ -1,0 +1,4 @@
+FTP = file transfer protocol <= ÈÑæÊæßæá äÞá ÇáãáÝÇÊ
+hosting = ÇáÇÓÊÖÇÝÉ 
+ÊÞÏã username and password to Domen
+use file zella to upload website

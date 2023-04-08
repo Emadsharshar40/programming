@@ -1,0 +1,23 @@
+<DOCTYPE html>
+<html>
+  <head>
+
+
+  </head>
+  <boby>
+   <p> hi man 
+   <blockquote> this is a famous word said by famous man </blockquote>  big quote
+   hi ahmed
+<br>
+   <q> learn learn learn </q>  small quote
+   </p>
+
+  <p>i love <mark>chess</mark></p>   mark=heigh lite
+   <del>chess</del> <ins> this is the right one </ins>   del=del word  ins=corriect
+   <pr>
+     i came here At S<sup>th</sup> of october5<sup>2</sup>   osss
+   <pr>
+     i came here At Sth of H<sub>2</sub>O    under osss
+   <pr>
+  </body>
+</html>

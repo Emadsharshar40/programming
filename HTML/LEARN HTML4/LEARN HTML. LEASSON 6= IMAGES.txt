@@ -1,0 +1,12 @@
+<DOCTYPE html>
+<html>
+  <head>
+     <title> images </title>
+  </head>
+  <body>
+<img src="imges/team/steve.jpg"> ’ж—е гд Џбн «бће«“
+<img src="image link">
+
+
+  </body>
+</html>

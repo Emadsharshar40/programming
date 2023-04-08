@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset="UTF-8"/>
+         <meta name"discreption" content="sdcnsi"/>
+         <title> Output </title> 
+         <link >
+         <script>
+
+         </script>
+         <style>
+ 
+         </style>
+      </head>
+      <body>
+         <aside>
+          <section>
+             <form oninput= javascript >
+                <h3>calculate your age</h3>
+                <input type="text" name="age">
+                <input type="text or hidden" name="days" value="365">
+                <output name="result"></output>
+             </form>
+          </section>
+         </aside>
+      </body>
+</html>

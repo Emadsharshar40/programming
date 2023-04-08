@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset="utf-8">
+         <meta name="discription" content="learn html">
+         <titl> html4 </title>
+         <link rel="stylesheet" href="style.css">
+         <script> </script>
+         <style>
+
+            body {background:#333;font-family:Arial,Tahoma}
+
+            fieldset
+
+            {
+               background:#FFF;
+               border:1px solid #CCC;
+               padding:20px;
+               width:500px;
+               margin:20px auto
+            }  
+
+            legend
+
+            {
+               background:#FFF;
+               border:1px solid#CCC; 
+               padding:15px            
+            }   
+            
+            lable {margin-bottom:10px;display:block}
+            input {margin-bottom:10px}
+
+            input[type="text"],
+            input[type="password"]{padding:7px;wedth:300px;display:block}
+            {
+               padding:8px;
+               width:300px;
+               display:block
+            }
+            hr{border:1px solid#EEE}
+            select
+            {
+               padding:10px 
+            }
+
+            textarea
+            {
+               padding:10px;
+               width:400px;
+               height:200px
+            }
+          
+         </style>
+      </head>
+      <body>
+         <form name="register">
+            <fieldset>
+               <legend> perssonal information </legend>
+               <lable>Username</lable>
+               <input type="text" name="username">
+               <lable> password </lable>
+               <input type="password" name="password">
+               <lable> E-mail </lable>
+               <input type="text" name="email"> 
+               <lable>Gender</lable>
+               <select>
+                  <option>Male</option>
+                  <option>Female</option> 
+               </select>   
+            </fieldset>
+            <fieldset>
+               <legend> Option for you </legend>
+               <lable> choose Your Favourite games </lable><br>
+               <input type="radio" name="games"> chess<br>
+               <input type="radio" name="games"> Table tiness<br>
+               <input type="radio" name="games"> football<br>
+               <input type="radio" name="games"> esports<br>
+               <input type="radio" name="games"> Bodybullding
+            <hr>   
+               <lable> Your favourite language </lable><br>
+               <input type="radio" name="language"> English<br>
+               <input type="radio" name="language"> Spanish<br>
+               <input type="radio" name="language"> Turky<br>
+               <input type="radio" name="language"> japanese<br>
+               <input type="radio" name="language"> germany
+            <hr>
+               <lable> choose your bowser the besting for you </lable><br>
+               <input type="radio" name="Browse"> Google chrome<br>
+               <input type="radio" name="Browse"> Mozilla firefox <br>
+               <input type="radio" name="Browse"> Opera<br>
+               <input type="radio" name="Browse"> Spark browser<br>
+               <input type="radio" name="Browse"> Enternet explorer
+            </fieldset>
+            <fieldset>
+               <legend> Your message </legend>
+               <textarea></textarea><br>
+               <input type="submet" value="send your data">
+            </fieldset>
+         </form>
+      </body>
+</html>

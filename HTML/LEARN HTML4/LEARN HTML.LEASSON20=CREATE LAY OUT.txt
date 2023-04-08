@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+      <head>
+         <meta charset="UTF-8">
+         <meta name="discription" content="iny think">
+         <title> lay out </title>
+         <link rel="stylesheet" href="style.css">
+         <script></script>
+         <style>
+           
+            body {margin:0;padding:0;font-family:Arial, Tahoma}
+            
+
+            .header
+            {
+               background:#333;
+               color:#FFF;
+               font-size:20px;
+               text-align:center;
+               padding:20px 0
+            }
+            .navigation
+            {
+               background:#DDD;
+               color:#676767;
+               text-align:center  
+            }
+            ul{list-style:none;padding:0;margin:0}
+            ul li {display:inline.block;padding:10px}
+
+            .content
+            {
+               text-align:center;
+               padding:20px 0
+            }
+         </style>      
+      </head>
+      <body>
+         <div class="header">
+            welcome
+         </div>
+         <div class="navigation">
+            <ul>
+               <li>Div</li>
+               <li>paragraph</li>
+               <li>Heading</li>
+               <li>Unordered List</li>
+               <li>Classes</li>
+               <li>Form</li>
+            </ul>
+         </div>
+         <div class="content">
+            <h1>»”„ «··Â «·—Õ„‰ «·—ÕÌ„</h1>
+            <h2>«·Õ„œ ··Â —» «·⁄«·„Ì‰ «·—Õ„‰ «·—ÕÌ„</h2>
+            <h3>„·ﬂ ÌÊ„ «·œÌ‰</h3>
+            <h3>«Ì«ﬂ  ⁄»œ Ê«Ì«ﬂ ‰” ⁄Ì‰</h3>
+            <h2>«Âœ‰« «·’—«ÿ «·„” ﬁÌ„ ’—«ÿ  «··–Ì‰ «‰⁄„  ⁄·ÌÂ„ €Ì— «·„€÷Ê» ⁄·ÌÂ„ Ê·« «·÷«·Ì‰</h2>
+            <h1>’œﬁ «··Â «·⁄ŸÌ„</h1>
+   <h1></h1>
+         </div>
+         <div class="footer">
+            footer
+         </div>
+      </body>
+</html>

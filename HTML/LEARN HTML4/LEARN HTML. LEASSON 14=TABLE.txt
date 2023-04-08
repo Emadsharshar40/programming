@@ -1,0 +1,122 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charest="utf-8">
+    <meta name="discription"contant="bla bla bla">
+    <title> title page </title>
+    <link rel="stylesheet"href="link css">
+    <script> javascript languag </script>
+    <style>
+      css languag
+    </style>
+  </head>
+  <body>
+    <table border="1">
+    <caption> this is my web skills </caption>
+    <tbody>
+      <tr>
+        <td> date </td>
+         <td>html</td>
+         <td>css</td>
+         <td>javascript</td>
+         <td>php</td>
+      </tr>
+      <tr>
+      <td>october</td>
+         <td>50%</td>
+         <td>49%</td>
+         <td>89%</td>
+         <td>38%</td>
+      </tr>
+      <tr>
+         <th> date </th>
+         <th>html</th>
+         <th>css</th>
+         <th>javascript</th>   <th></th>=bulk
+         <th>php</th>
+      </tr>
+                                                               tbody   control from css
+     <thead>
+       <tr>
+      <td>october</td>
+         <td>50%</td>
+         <td>49%</td>       thead celkt by css langaug
+         <td>89%</td>
+         <td>38%</td>
+      </tr>
+     </thead>
+   <tfoot>
+    <tr>
+      <td>october</td>
+         <td>50%</td>
+         <td>49%</td>        last line from list    
+         <td>89%</td>
+         <td>38%</td>
+      </tr>
+   </tfoot>
+  </tbody>
+
+    </table>
+
+
+     <table>
+
+        <caption>learn programming</caption>         
+        <tr>
+          <td colspan="2">programming</td>
+                                           <td>programming</td>  delate
+          <td colspan="3">web design</td>
+                                            <td>web design</td>     delate
+                                             <td>web design</td>    delate
+        </tr>
+        <tr>
+          <td>php</td>
+          <td>mySQL</td>
+          <td>html</td>
+          <td>css</td>
+          <td>java scripte</td>
+        </tr>
+     </table>
+
+  <taple> 
+      <caption>rowspan</caotion>
+      <tr>
+        <td rowspan="2">name</td>
+        <td>email</td
+      </tr>
+      <tr>
+        <td>emad</td>
+        <td>bvjkad</td>
+        <td>idnis@vsd</td>
+      </tr>
+  </table>
+  
+  <table>
+    <caption>colGroub</caption>
+    <colgroup>
+      <colspan="2" style="css languge">   ‰”Ìﬁ «·«⁄„œÂ
+
+
+    </colgroup>
+    <tr>
+      <td>programming</td>
+      <td>programming</td>
+      <td>design</td>
+      <td>design</td>
+      <td>design</td>
+      <td>design</td>
+    </tr>
+    <tr>
+      <td>php</td>
+      <td>MySQL</td>
+      <td>html</td>
+      <td>css</td>
+      <td>jQuery</td>
+      <td>photoshop</td>
+    </tr>
+  </table>
+
+
+
+  </body>
+</html>
