@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+         <head>
+         	<style>
+                   .text
+                   {
+                        background:rgba(33,33,33,0.7);
+                        padding:10px;
+                        width:120px;
+                        height:100;
+                        overflow:visible , hidden , scroll , auto ;         /* visible => defult */
+                   }  
+              </style>
+         </head>
+         <body>
+  	<div class="text">
+ 	     this is text<br>
+	     this is text<br>
+	     this is text<br>
+	     this is text<br>
+	     this is text<br>
+	     this is text<br>
+    	     this is text<br>
+	     this is text<br>
+	     this is text<br>
+	     this is text<br>
+               </div>
+         </body>
+</html>

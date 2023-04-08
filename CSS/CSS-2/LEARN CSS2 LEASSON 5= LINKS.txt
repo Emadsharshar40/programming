@@ -1,0 +1,18 @@
+<a href=""https://www,google.com/>Google</a>
+
+a
+{
+   color:#00F;
+   text-decoration:none;
+   
+}
+a:hover
+{
+   color:red;
+   text-decoration:underline;   
+   font-weight:bold;
+}
+a:active
+{
+   color:#080;
+}

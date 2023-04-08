@@ -1,0 +1,40 @@
+div
+{
+   color:#333;                               /* text color */
+   direction:ltr or rtl;                     /* « Ã«Â «·ﬂ·«„ */
+   letter-spacing:2px;                       /* „”«›«  »Ì‰ «·Ã—Ê› */
+   word-spacing:40px;                        /* spaces betwen words */
+   line-height:30px 0r 23%;                  /* spaces betwen lines */
+   text-align:center or right or left;       /* place text */
+   text-indet: ;     „”«›Â „‰ «Ê· ”ÿ— »Ì‰ ÕÊ«› «· body
+              
+}            
+          
+div
+{     
+   text-decoration:underline or non overline;   /* overline =>>> line up word  underline =>>> line down word  line- through = <del> </del> */
+}
+     
+a
+{
+   text-decoration:non;  
+}
+
+a.hover
+{
+   text-decoration:underline 
+}
+
+div.span
+{
+   text-decoration:line-through;
+}
+-----------
+ div
+{     
+   text-decoration:underline or non overline;                /* overline =>>> line up word  underline =>>> line down word  line- through = <del> </del> */
+   text-indent:40px;                                         /* »œ«ÌÂ «·”ÿ— «·„”«›Â »Ì‰ «·ﬂ·«„ Ê«·Ãœ«— «·„ ’›Õ */
+   text-transform:capitalize or uppercase or lowercase;      /*  €Ì— «·‰’ „‰ ﬂ«» · «·Ì ”„Ê· «Ê «·⁄ﬂ” */
+   white-space:norap;                                        /* text oute of contanre  */
+  
+}       

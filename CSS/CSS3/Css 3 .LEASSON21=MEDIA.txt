@@ -1,0 +1,38 @@
+<!DOCTYPE html>            screan size s     
+<html>
+<head>
+    div {
+            width: 33%;
+            background: #00F;
+            padding: 10px;
+            color: #FFF;
+            font-size: 22px;
+            float: left;
+            margin-left: 1%
+    }
+    @media (max-width: 500px) {
+            div {
+                    float: none;
+                    background-color: #333;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    margin-left: 0
+            } 
+    }
+    @media (min-width: 500px) and (max-width: 1600px) {
+            div {
+                    float: none;
+                    background-color: #333;
+                    width: 100%;
+                    margin-bottom: 20px;
+                    margin-left: 0
+            } 
+    }
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

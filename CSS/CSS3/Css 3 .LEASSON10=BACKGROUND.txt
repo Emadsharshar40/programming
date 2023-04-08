@@ -1,0 +1,68 @@
+background
+==========
+
+div
+{
+   background-color:red; 
+   background-color:#f00;
+   background-color:rgb(147,38,38);  
+   background-color:rgba(147,38,38,0.6);
+}
+
+div
+{
+   background-image:url('');
+   background-repeat:repeat or repeat-x or repeat-y or no-repeat;
+   background-attachment:fixed;   standard => scroll inherit or !important
+   background-position:top right or top left or center right or center left or bottom right or bottom left or center center or center top or center bottom;
+   background-position:0% 0%;
+}
+
+background:#00F url('') no-repeat scroll 10% 10%;
+-----------------------------------------
+<!DOCTYPE html>
+<html>
+      <head>
+            <style>
+                div
+                {
+                    width:400px;
+                    height:200px;
+                    color:#FFF;
+                    margin-bottom:20px;
+                    background-image:url('cat../djhrv/f');
+                    background-size:400px 200px , cover ;                  /* background-size:auto auto => this is defulte value */
+                }
+            </style>
+      </head>
+      <body>
+            <div>
+                veaiormimlkmvns9euivuhvuixhknsdpuvbsducudvkadpivbvb  auphuiv boeru8viuepfcbsdhjkalfhdjahfsjsdksfakjfksadjfkdsajsak;djfkasdjfiqpjfidsankvj 
+                vaekvjndzkxnvpionvndakad adsk;fjjfjsadlkfjajhguhf lhi9 valskdksdajlfjqowefsalwoeiowfdksdzx,zx.msdfjsakfsa;a;qweqeofeqiuiropeaskmc,x
+            </div>
+      </body>
+</html>
+-----------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+      <head>
+            <style>
+                div
+                {
+                    width:400px;
+                    height:200px;
+                    color:#FFF;
+                   background:#00F;
+                   border:10px dotted #F00;
+                   background-clip: border-box , padding-box , content-box;
+                   background-origin border-box , padding-box , content-box;  
+                }
+            </style>
+      </head>
+      <body>
+            <div>
+                veaiormimlkmvns9euivuhvuixhknsdpuvbsducudvkadpivbvb  auphuiv boeru8viuepfcbsdhjkalfhdjahfsjsdksfakjfksadjfkdsajsak;djfkasdjfiqpjfidsankvj 
+                vaekvjndzkxnvpionvndakad adsk;fjjfjsadlkfjajhguhf lhi9 valskdksdajlfjqowefsalwoeiowfdksdzx,zx.msdfjsakfsa;a;qweqeofeqiuiropeaskmc,x
+            </div>
+      </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <title>((PERENT=>> direction , wrap , flex flow , justify-content , align items , align content)) ((CHILD =>> order, flex grow , flex shrink,flex-basis,flex-shorthand))</title>
+        <script>
+
+        </script>
+        <style>
+            .container
+            {
+                width:800px;
+                height: 400PX;
+                margin:50px auto;
+                padding:10px;
+                background-color:#EEE;
+                display: flex;
+                                                                                            /* flex-direction: row-revers , column , column-revers; */     /* row = is a defult value */
+                                                                                            /* flex-wrap: nowrap , wrap , wrap-revers;  */                      /* nowrap= defult value */
+                                                                                            /* flex-flow: flex-direction , flex-wrap; */
+                                                                                            /* justify-content: flex-start= is a defult value , flex-end , center , space-between , space-around; */ 
+                                                                                            /*align-items: stretch = is a defult value , flex-start , flex-end , center , baseline; */
+                                                                                            /* align-content: stretch = is a defult value , center , flex-start , flex-end ,  space-between , space-around ; */  
+                
+            }
+            .container div
+            {
+                width: 200px;
+                max-height: 100px;
+                color: #FFF;
+                padding:10px;    
+             
+                                                                                                     /*   flex-grow:   */              /* 0 = defult value */
+                flex-shrink: 1;         /* 1 = defult value */
+            }
+            .container div:first-of-type
+            {
+                background-color: #080;
+                order: 3;
+                flex-shrink: 0;                                                                           /* flex: grow: 1; */
+            }
+            .container div:nth-of-type(2)
+            {
+                background-color: #F00;
+                order: 1;
+                flex-basis: 200px;            /* flex-basis: auto; = defult value */
+            }
+            .container div:last-of-type
+            {
+                background-color: #00F;
+                order: 2;
+            }
+        </style>
+    </head>
+    <body>
+       <!-- <div class="container">
+            <div>div1</div>
+            <div> div2 div2 vdiv2 div2 div2 div2 div2 div2 div2 </div>
+            <div>div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3div3</div>
+        </div> -->
+
+        <div class="container">
+            <div class="one">div1</div>
+            <div class="two">dvi2</div>
+            <div class="three">div3</div>
+            <div class="four">div4</div>
+        </div>
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+   flexshorthand:
+   
+    flex: flex-grow | flex-shrink | flex-basis;             /* 0 1 auto = defult value */
+
+
+
+
+
+
+
+
+
+    

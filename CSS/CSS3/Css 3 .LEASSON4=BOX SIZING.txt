@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+         <head>
+              <style>
+                   *
+                   {
+                        box-sizing:padding-box , border-box;     //  content-box => defult value
+                   }
+                   section
+                   {
+                        width:940px;
+                        margin:20px auto;
+                        backgrond:rgb(0,255,255);
+                        overflow:hidden;
+                   }
+                   
+                   .left
+                   {
+                        float:left;
+                        width:360px;
+                        backgrond:rgb(0,255,0);
+                        color:#FFF;
+                        padding:10px;
+                   }
+                   .right
+                   {
+                        float:right;
+                        width:580px;
+                        backgrond:rgb(0,0,0);
+                        color:#FFF;
+                   }
+              </style> 
+         </head>
+         <body>
+              <section>
+                   <div class="left">left</div>
+                   <div class="right">right</div>
+              </section>
+         </body>
+</html>

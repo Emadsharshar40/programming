@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div
+            {
+                width:100px;
+                height:100px;
+                padding:10px;
+                background:#333;
+                color:red;
+                font-weight:bold;
+                font-size:30px;
+                border:1px solid #00F;
+
+                overflow-x:hidden;
+                overflow-y:visible;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            This is normal div sdknvoweincsldnwodjscn jiseu
+        </div>
+    </body>
+</html>

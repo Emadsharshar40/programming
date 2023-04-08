@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  /* TTF > true type font | OTF > open type font | WOFF > web open font |WOFF2 | SVG > scalable vector graphic | EOT > embedded type font */
+        @font-face {
+                font-family: emadsharshar;
+                src: url('fonts/emad.ttf')
+        }
+    </head>
+    <body>
+        <p>this is my life apcm,pmvkm sxd;lmcsmv</p>   
+    </body>
+</html>

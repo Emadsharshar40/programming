@@ -1,0 +1,472 @@
+﻿<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>(( ROTATE x,y,z ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            div
+            {
+                width:300px;
+                height:300px;
+                background-color:#000;
+                color:#FFF;
+                text-align:center;
+                transdform: rotatex , rotatey , rotatez;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Emad SharShar</div>
+    </body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>(( translate 3d ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            body
+            {
+                perspective: 600px;                          لتشغيل خواص البعد الثالث
+            }
+            div
+            {
+                width:300px;
+                height:300px;
+                background-color:#000;
+                color:#FFF;
+                text-align:center;
+                transdform: translate3d(100px,100px 200px);       /* translate3d(x,y,z) */
+            }
+        </style>
+    </head>
+    <body>
+        <div>Emad SharShar</div>
+    </body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>(( scale 3d ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            body
+            {
+                perspective: 600px;                   
+            }
+            div
+            {
+                width:300px;
+                height:300px;
+                background-color:#000;
+                color:#FFF;
+                text-align:center;
+                transdform: scale3d(1,1,3) rotate(20deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div>Emad SharShar</div>
+    </body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>(( matrix 3d))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            body
+            {
+                perspective: 600px;                          لتشغيل خواص البعد الثالث
+            }
+            div
+            {
+                width:300px;
+                height:300px;
+                background-color:#000;
+                color:#FFF;
+                text-align:center;
+                transdform: matrix3d( scaleX ,0,0,0,0, scaleY ,0,0,0,0,0,0, traslateX , translateY , scaleZ ,0);     موقع matrix 3d transform genarator &code pen
+            }
+        </style>
+    </head>
+    <body>
+        <div>Emad SharShar</div>
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>((   perspective  لتشغيل خواص البعد الثالث  ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            body
+            {
+                                        
+            }
+            img
+            {
+                bisplay:block;
+                margin:50px auto;
+                transition: all .5s ease-in-out;
+            }
+            img:hover
+            {
+                transform: translateZ(100px);
+            }
+            div
+            {
+                margin: 50px 100px;
+                 
+            }
+    
+            .d1
+            {
+                perspective: 600px;
+                perspective-origin: 50% 50%;       /* 50% 50% = thi is a defult value | perspective-origin: x ,y */  
+            }
+            .d2
+            {
+                perspective: 400px;
+                perspective-origin: 90% 90%;
+            }
+            .d3
+            {
+                perspective: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d1">
+            <img src="" alt="">
+        </div>
+        <div class="d2">
+            <img src="" alt="">
+        </div>
+        <div class="d3">
+            <img src="" alt="">
+        </div>
+    </body>
+</html>
+___________________________----------------------------------------
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>((  transform-origin , transform-style  ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+             body
+             {
+                 perspective: 500px;
+             }
+
+
+
+
+             /*
+             div
+             {
+                 width:300px;
+                 height:300px;
+                 background:#F00;
+                 margin:50px auto;
+                 transition: all .5s ease-in-out;
+                                                                     
+             }
+             div:hover
+             {
+                 transform: rotate(360deg);
+                 transform-origin: 90% 70% ;         /* 50% 50% = defult value */
+                 
+             }
+             */
+
+
+             .father
+             {
+                 width:300px;
+                 height:300px;
+                 margin:50px auto;
+                 position: relative;
+                 background-color:#080;
+                 transition: all .5s ease-in-out;
+                 transform:rotateY(20deg);
+                 transform-style: preserve-3d;              /* flat = defult value */
+             }
+             .child1
+             {
+                 width:300px;
+                 height:300px;
+                 position: absolute;
+                 left:30px;
+                 top:30px;
+                 background-color:#F00;
+                 transform: translateZ(50px) rotateY(45deg);
+             }
+             .child2
+             {
+                 width:300px;
+                 height:300px;
+                 position: absolute;
+                 left:30px;
+                 top:30px;
+                 background-color:#00F;
+                 transform: translateZ(150px) rotateX(45deg);
+             }
+        </style>
+    </head>
+    <body>
+        <div class="father">
+            <div class="child1"></div>
+            <div class="child2"></div>
+        </div>
+    </body>
+</html>
+--------------------------------------------_________________
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>(( BACK FACE VISIBILITY  ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+             body
+             {perspective: 500px;}   
+             .father
+             {
+                 width:300px;
+                 height:300px;
+                 margin:50px auto;
+                 position:relative;
+                 transition: all .54s ease-in-out;
+                 transform-style:preserve-3d;                                                              /*    backface-visibility: hidden; */           /* visible is defult value*/
+             }
+             .father:hover
+             {
+                 transform: rotateY(180deg);
+             }
+             .father > div
+             {
+                 position:absolute;
+                 left:0;
+                 top:0;
+                 width:100%;
+                 height:100%;
+                 line-height:300px;
+                 color:#FFF;
+                 font-size:30px;
+                 text-align:center; 
+             }
+             .front
+             {
+                 z-index:2;
+                 background-color:#F00;
+                 backface-visibility: hidden;
+             }
+             .back
+             {
+                 z-index:1;
+                 background:00F;
+                 transform: rotateY(180deg)
+             }
+        </style>
+    </head>
+    <body>
+         <div class="father">
+              <div class="front"> this is front</div>
+              <div class="back"> this is thi is back</div>
+         </div>
+    </body>
+</html> 
+------------------------------------------------------------------------
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+
+        <title>(( FLiP CARD  ))</title>
+
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            body
+            {
+                perspective: 1000px;
+            }
+            .card
+            {
+                width: 380px;
+                height: 400px;
+                margin: 80px auto;
+                position: relative;
+                trasform-style; preserve-3d;
+                transition: all 1.5s ease-in-out;
+                box-shadow: 12px 12px 12px #F00,
+                                     -12px -12px 12px #00F;
+            }
+            .card:hover
+             {
+                 transform: rotateY(180deg);
+             }
+            .card > div
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                border-radius: 12px;
+                border: 1px solid #FFF;
+                font-family: Arial, Tahoma;
+                text-align: center;   
+            }
+            .card .front header
+            {
+                background: #CCC;
+                width: 100%;
+                height: 90px;   
+                margin-bottom: 55px
+                border-radius: 11px 11px 0 0;  
+            }
+            .card .front img
+            {
+                width: 95px;
+                height: 95px;
+                border-radius: 50%;
+                position: relative;
+                top: 25px;
+            }
+             .card .front h3
+            {
+                margin-bottom: 8px;
+                color: #080;
+            }
+             .card .front p
+            {
+                margin:auto;
+                line-height: 1.7;
+                width: 90%;
+                color: rgba(255,255,255,.7);
+            }
+            .card .front
+            {
+                z-index: 2;
+                backface-visibility: hidden;
+            }
+             .card .front sapn
+            {
+                display: inline-block;
+                color: #F00;
+                font-size: 20px;
+                margin-top: 30px;
+                font-weight: bold;
+            }
+            .card .back
+            {
+                z-index: 1; 
+                background: #333;
+                transform: rotateY(180deg); 
+                backface-visibility: hidden;
+            }
+            .card .back ul
+            {
+                padding: 0;
+                line-height: 2;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div calss="card">
+            <div class="front">
+                <header>
+                    <img src="" alt="emad">
+                </header>
+                    <h3>Emad SharShar</h3>
+                    <p>emad mostafphu porn in 2003 in nop tarev country.
+                           he is like a chess and body billding . and he is perfect in math 
+                           and scince and phithicse .
+                    </p>
+                    <span>HOVER HER TO SEA BACK FACE</span>
+            </div>
+            <div class="back">
+                <ul>
+                    <li><a href="https://www.google.com/">Google</a></li>
+                    <li><a href="https://www.youtupe.com/">Youtupe</a></li>
+                    <li><a href="https://www.twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/">my facebook</a></li>
+                    <li><a href="https://www.discord.com/">Discord</a></li>
+                    <li><a href="https://www.Linkedin.com/">Linkedin</a></li>
+                    <li><a href="https://www.Instgram.com/">Instgram</a></li>
+                    <li><a href="https://www.w3.com/">W3</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html> 
+
+
+
+
+
+
+
+

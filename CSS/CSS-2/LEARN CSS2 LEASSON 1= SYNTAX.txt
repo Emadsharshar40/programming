@@ -1,0 +1,13 @@
+SYNTAX OFF CSS
+
+ SELCTOR
+ {
+    property:value;  diclaration   
+ }
+
+-------------------
+class="one"  = .one
+id="tow"     = #tow
+selctor.hover    ⁄‰œ ÊﬁÊ› «·„«Ê” ⁄‰œ «·”Ì·ﬂ Ê—
+-------------------
+

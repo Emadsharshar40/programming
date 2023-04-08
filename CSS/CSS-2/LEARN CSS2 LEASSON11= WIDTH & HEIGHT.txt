@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <style>
+           .width
+           {
+              background:#DDD;
+              width:100px;
+              min-width:29px;
+              max-width:200px;
+           }
+           .height
+           {
+              background:#000;
+              color:#FFF;
+              height:200px;
+              min-height:80xp;
+              max-height:400px;
+           }
+        </style>  
+     </head>
+     <body>
+        <div class="width">
+           this is width
+        </div>
+
+        <div class="height">
+           this is height
+        </div>
+     </body>
+</html>

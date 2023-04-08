@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+     </head>
+        <title> css course ==>> (static => defult value , fixed , relative , absolute) </title>
+        <style>
+           body
+           {
+              height:3000px;
+              background:#DDD
+           }          
+           .fixed 
+           {         
+              background:rgba(0,0,255,0.6);
+              color:white;
+              padding:10px;
+              position:fixed;
+              top:100px;
+              bottom:100px;
+              right:100px;
+              left:100px;
+           }      
+           .relative 
+           {         
+              background:rgba(0,0,255,0.6);
+              color:white;
+              padding:10px;
+              position:relative;
+              top:100px;
+              bottom:100px;
+              right:100px;
+              left:100px;      
+           }
+           .absolute
+           {         
+              background:rgba(0,0,255,0.6);
+              color:white;
+              padding:10px;
+              position:absolute;
+              top:100px;
+              bottom:100px;
+              right:100px;
+              left:100px;      
+           }
+        </style>
+     </head>
+     </body>
+        <div class="fixed">
+           this is fixed div
+        </div>
+        
+        <div class="relative">
+           this is relative div
+        </div>
+
+        <div class="absolute">
+           this is absolute div
+        </div>
+     </body>
+</html>

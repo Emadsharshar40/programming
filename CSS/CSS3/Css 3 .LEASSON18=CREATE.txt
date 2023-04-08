@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Create Animation" />
+        <title>(( create=> swing Drop ))</title>
+        <style>
+            *{-webkit-box-sizing: border-box}
+            .container {
+                    width: 250px;
+                    heght: 50px;
+                    margin: 10px;
+                    float: left;
+                    font-family: Arial, Tahoma;
+                    font-weight: bold;
+                    text-align: center;
+            } 
+            .container .box {
+                    height: 50px;
+                    line-height: 50px;
+                    position: relative;
+                    color: #FFF;
+                    z-index: 2;
+            }
+            .container a {
+                    display: inline-block;
+                    height: 50px;
+                    width: 100%;
+                    line-height: 50px;
+                    background-color: #333;
+                    color: #FFF;
+                    text-decoration: none;
+                    position: relative;
+                    top: -50px;
+                    z-index: 1;
+            }
+            .container:hover {
+                    top: 0;
+            }
+            .normal:before {
+                    display: block;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    content: "Normal Hover"
+            }
+            .normal .box {
+                    background-color: #62C8F8;      
+            }
+            .transition:before {
+                    display: block;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    content: "Transition Hover"
+            }
+            .transition .box {
+                    background-color: #3B5998;
+            }
+            .transition a {
+                    transition: all .6s ease-in-out;
+            }
+            .animation:before {
+                    display: block;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    content: "Animation Hover"
+            }
+            .animation .box {
+                    background-color: #C8302A;      
+            }
+            .animation a {
+                    transition: all .6s ease-in-out;
+            }
+            .animation:hover {
+                    animation: swinging 1.5s ease-in-out;
+            }
+            @keyframes swinging
+            {
+                0%
+                {
+                    transform: rotateX(-50deg);
+                }
+                20%
+                {
+                    transform: rotateX(50deg);
+                }
+                40%, 80%
+                {
+                    transform: rotateX(-30deg);
+                }
+               60%
+                {
+                    transform: rotateX(30deg);
+                }
+                100%
+                {
+                    transform: rotateX(0deg);
+                }
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="container normal">
+            <div class="box">Follow me in Twitter</div>
+            <a href="#">Emad sahrshar</a>
+        </div>
+        <div class="container transition">
+            <div class="box">Follow me in facebook</div>
+            <a href="#">Haie emad</a>
+        </div>
+        <div class="container animation">
+            <div class="box">subscribe on youtupe</div>
+            <a href="#">my youtupe chanell</a>
+        </div>
+    </body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Create Animation" />
+        <title>(( create=> Wave Audio))</title>
+        <style>
+            *{-webkit-box-sizing: border-box}
+            .container {
+                    width: 300px;
+                    height: 60px;
+                    margin: 100px auto;
+                    position: relative;   
+            }
+            .container span {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    height: 10px;
+                    width: 20px;
+                    background-color: #9b59B6;
+                    animation: loading 1.6s infinite ease-in-out
+            }
+            .container span:nth-of-type(2) {
+                    left: 11px;
+                    animation-delay: .2s
+            }
+            .container span:nth-of-type(3) {
+                    left: 22px;
+                    animation-delay: .4s
+            }
+            .container span:nth-of-type(4) {
+                    left: 33px;
+                    animation-delay: .6s
+            }
+            .container span:nth-of-type(5) {
+                    left: 44px;
+                    animation-delay: .8s
+            }
+            .container span:nth-of-type(6) {
+                    left: 55px;
+                    animation-delay: 1s
+            }
+            .container span:nth-of-type(7) {
+                    left: 66px;
+                    animation-delay: 1.2s
+            }
+            .container span:nth-of-type(8) {
+                    left: 77px;
+                    animation-delay: 1.4s
+            }
+            .container span:nth-of-type(9) {
+                    left: 88px;
+                    animation-delay: 1.6s
+            }
+            .container span:last-of-type {
+                    left: 99px;
+                    animation-delay: 2s
+            }
+            @keyframes loading {
+                    0% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    10% {height: 40px;transform: translateY(20px);background-color: #3498D6}
+                    20% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    30% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    40% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                   50% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    60% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    70% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    80% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+                    100% {height: 10px;transform: translateY(0);background-color: #9B59B6}
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="container">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Create Animation" />
+        <title>(( create=> Snake))</title>
+        <style>
+            *{-webkit-box-sizing: border-box}  
+            body {background-color: #333}
+            .snake {
+                    width: 320px:
+                    height: 80px;
+                    margin: 100px auto;
+                    position: relative;
+            }
+            .snake span {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    background-color: #3498DB;
+                    opacity: 0.8;
+                    animation: snakeloading 1.8s infinite ease-in-out
+            }           
+            .snake span:nth-of-type(2) {
+                    left: 51px;
+                    animation-delay: .2s        
+            }
+            .snake span:nth-of-type(3) {
+                    left: 102px;
+                    animation-delay: .4s        
+            }
+            .snake span:nth-of-type(4) {
+                    left: 153px;
+                    animation-delay: .6s        
+            }
+            .snake span:nth-of-type(5) {
+                    left: 204px;
+                    animation-delay: .8s        
+            }
+            .snake span:nth-of-type(6) {
+                    left: 255px;
+                    animation-delay: 1s        
+            }
+            .snake span:last-of-type(7) {
+                    left: 306px;
+                    animation-delay: 1.2s        
+            }
+            @keyframes snakeloading {
+                    0%, 100% {
+                        opacity: .3;
+                        trasform: translateY(0)
+                    }
+                    25% {
+                        opacity: 1;
+                        trasform: translateY(-12px)
+                    }
+                    50% {
+                        opacity: 1;
+                        trasform: translateY(0)
+                    }
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="snake">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+

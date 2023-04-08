@@ -1,0 +1,126 @@
+<!DOCKTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="" />
+        <title>  FLiP CARD  </title>
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            body
+            {
+                perspective: 1000px;
+            }
+            .card
+            {
+                width: 380px;
+                height: 400px;
+                margin: 80px auto;
+                position: relative;
+                trasform-style; preserve-3d;
+                transition: all 1.5s ease-in-out;
+                box-shadow: 12px 12px 12px #F00,
+                                     -12px -12px 12px #00F;
+            }
+            .card:hover
+             {
+                 transform: rotateY(180deg);
+             }
+            .card > div
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                border-radius: 12px;
+                border: 1px solid #FFF;
+                font-family: Arial, Tahoma;
+                text-align: center;   
+            }
+            .card .front header
+            {
+                background: #CCC;
+                width: 100%;
+                height: 90px;   
+                margin-bottom: 55px
+                border-radius: 11px 11px 0 0;  
+            }
+            .card .front img
+            {
+                width: 95px;
+                height: 95px;
+                border-radius: 50%;
+                position: relative;
+                top: 25px;
+            }
+             .card .front h3
+            {
+                margin-bottom: 8px;
+                color: #080;
+            }
+             .card .front p
+            {
+                margin:auto;
+                line-height: 1.7;
+                width: 90%;
+                color: rgba(255,255,255,.7);
+            }
+            .card .front
+            {
+                z-index: 2;
+                backface-visibility: hidden;
+            }
+             .card .front sapn
+            {
+                display: inline-block;
+                color: #F00;
+                font-size: 20px;
+                margin-top: 30px;
+                font-weight: bold;
+            }
+            .card .back
+            {
+                z-index: 1; 
+                background: #333;
+                transform: rotateY(180deg); 
+                backface-visibility: hidden;
+            }
+            .card .back ul
+            {
+                padding: 0;
+                line-height: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div calss="card">
+            <div class="front">
+                <header>
+                    <img src="" alt="emad">
+                </header>
+                    <h3>Emad SharShar</h3>
+                    <p>emad mostafphu porn in 2003 in nop tarev country.
+                           he is like a chess and body billding . and he is perfect in math 
+                           and scince and phithicse .
+                    </p>
+                    <span>HOVER HER TO SEA BACK FACE</span>
+            </div>
+            <div class="back">
+                <ul>
+                    <li><a href="https://www.google.com/">Google</a></li>
+                    <li><a href="https://www.youtupe.com/">Youtupe</a></li>
+                    <li><a href="https://www.twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/">my facebook</a></li>
+                    <li><a href="https://www.discord.com/">Discord</a></li>
+                    <li><a href="https://www.Linkedin.com/">Linkedin</a></li>
+                    <li><a href="https://www.Instgram.com/">Instgram</a></li>
+                    <li><a href="https://www.w3.com/">W3</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Create Animation" />
+        <title>(( create=> Snake))</title>
+        <style>
+            *{-webkit-box-sizing: border-box}  
+            body {background-color: #333}
+            .snake {
+                    width: 400px:
+                    height: 80px;
+                    margin: 500px auto;
+                    position: relative;
+                    background-color: #000
+            }
+            .snake span {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    background-color: #3498DB;
+                    opacity: 0.9;
+                    animation: snakeloading 1.8s infinite ease-in-out
+            }           
+            .snake span:nth-of-type(2) {
+                    left: 51px;
+                    animation-delay: .2s        
+            }
+            .snake span:nth-of-type(3) {
+                    left: 102px;
+                    animation-delay: .4s        
+            }
+            .snake span:nth-of-type(4) {
+                    left: 153px;
+                    animation-delay: .6s        
+            }
+            .snake span:nth-of-type(5) {
+                    left: 204px;
+                    animation-delay: .8s        
+            }
+            .snake span:nth-of-type(6) {
+                    left: 255px;
+                    animation-delay: 1s        
+            }
+            .snake span:last-of-type(7) {
+                    left: 306px;
+                    animation-delay: 1.2s        
+            }
+            @keyframes snakeloading {
+                    0%, 100% {
+                        opacity: .3;
+                        transform: translateY(0)
+                    }
+                    25% {
+                        opacity: 1;
+                        transform: translateY(-15px)
+                    }
+                    50% {
+                        opacity: 1;
+                        transform: translateY(0)
+                    }
+            }
+        </style> 
+    </head>
+    <body>
+        <div class="snake">
+            <span style="background-color: #FF0"></span>
+            <span style="background-color: #F00"></span>
+            <span style="background-color: #00F"></span>
+            <span style="background-color: #080"></span>
+            <span style="background-color: #FF0"></span>
+            <span style="background-color: #F0F"></span>
+            <span style="background-color: orange"></span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+         <head>
+              <style>
+                   .left          
+                   {
+                        width:800px;
+                        background-color:#333;
+                        color:#FFF;
+                        padding:10px;
+                        float:none ,left , right;             /* none => defult ,, left ,,  right */
+                        clear:both , left , right;
+                   }
+              </style>       
+         </head>
+         <body>
+              <div class="left">
+                   this is normal div
+              </div>
+         </body>
+</html>
+ 

@@ -1,0 +1,20 @@
+font corses
+
+p
+{
+   font-family:tahoma OR Arial OR 'TIME NEW ROMAN';
+   font-family:tahoma, ariale, 'serif comic sans ms', cursive;
+
+   font-style:italic;
+   
+   font-size:medium or xx-small or x-small or small or xx-large or x-large or large or 20px or 200% or smaller or larger;        medium => 16px defult value
+   font-weight:bold or bolder or lighter or 100to900 400 is normal font ;
+}
+
+ 
+p
+{       
+   font:style/font-size/font-weight/font-family
+   font:italic 30px/ bold ariale, 'serif comic sans ms', cursive;
+  
+}

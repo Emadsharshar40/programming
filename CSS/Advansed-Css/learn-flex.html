@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-ar">
+<head>
+    <meta charset="utf8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Learn-Flex</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            width: 800px;
+            height: 500px;
+            border: 1px solid #000;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+        .container > div {
+            width: 200px;
+            height: 100px;
+            padding: 10px 20px;
+            text-align: center;
+            line-height: 80px;
+            font-weight: bold;
+            color: white;
+            flex-grow: 1;
+        }
+        .div1 {background-color: red;align-self: flex-end;}
+        .div2 {background-color: green;align-self: center;}
+        .div3 {background-color: blue;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">div-one</div>
+        <div class="div2">div-tow</div>
+        <div class="div3">div-three</div>
+    </div>
+</body>
+</html>

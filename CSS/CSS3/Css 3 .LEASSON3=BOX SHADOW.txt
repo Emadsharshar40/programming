@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+         <head>
+              <style>
+                   div
+                   {
+                        backgrond:#000;
+                        border:2px solid #CCC;
+                        color:#FFF;
+                        padding:10px;
+                        width:200px;
+                        height:200px;
+                        margin:10px auto;
+ 
+                                                                                         box-shadow: Horizontal shadow|Vertical shadow|Blur|Spread|color|inset or outset|;                       
+                        box-shadow:10px10px #00F;                                                              //none is defult value   
+                        box-shadow:-10px -10px 10px 10px #00F inset or outset;
+                        box-shadow:10px10px #00F.
+                                             5px 5px #F00 
+                   }
+              </style>    
+         </head>
+         <body>
+              <div>
+                   This is normal div
+              </div>
+         </body>
+</html>

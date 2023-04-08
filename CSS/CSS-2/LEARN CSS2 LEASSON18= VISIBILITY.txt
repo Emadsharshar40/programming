@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+         <head>
+         	<style>
+                   div
+                   {
+                        background:#DDD;
+                        padding:10px;
+                        width:300px;
+                        margin:5px;
+                        flout:left;
+                        visibility:hidden;
+                   }
+                   .visibility
+                   {
+
+                   }     
+                   .normal
+                   {
+
+                   }
+              </style>
+         </head>
+         <body>
+  	<div class="visibility">
+ 	     this is visibility div 			
+               </div>
+
+  	<div class="normal">
+ 	     this is normal div 			
+               </div>
+         </body>
+</html>

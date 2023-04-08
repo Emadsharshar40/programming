@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>(( transition ))</title>
+        <style>
+            /* transition: property | duration | timing function | delay */
+
+            div
+            {
+                width: 200px;
+                height: 350px;
+                text-align: center;
+                background-color: #DDD;
+                font-weight: bold;
+                font-size: 50px;
+                transition-property: width, background;    /* all = is a defult value , none to reset */
+                transition-duration: 1.5s, 2s;
+                transition-timing-function: cubic-bezier(0, 0, 0, 0);                    /*steps(4, start or end); /*ease , linear , ease-in , ease-out , ease-in-out;    /* ease= defult value */
+                transition-delay: 5s;
+            }
+            div:hover
+            {
+                transform: rotateY(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            this is normal div
+        </div>
+    </body>
+</html>

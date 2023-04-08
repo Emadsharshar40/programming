@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <style>
+           div
+           {
+              display:inline or block or none;
+           }    
+        </style>
+     </head>
+     <body>
+      
+     </body>
+</html>

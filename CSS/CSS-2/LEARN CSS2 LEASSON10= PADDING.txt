@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <style>
+           div
+           {
+              background:#00F;
+              color:white;
+              padding-top:10px 10px 10px 10px; ÂÊ«„‘ œ«Œ·ÌÂ
+
+           }
+        </style>
+     </head>
+     <body>
+        <div>
+          this our div
+        </div>
+     </body>
+</html>

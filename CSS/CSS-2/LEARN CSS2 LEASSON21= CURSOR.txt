@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+          span
+          {
+               cursor:auto - pointer - cell ;     /* auto => is a defult value */
+          }
+     </style>
+</head>
+<body>
+     <a href="https://www.google.com/">Google</a>
+     <span>Emad sharshar</span>
+</body>
+</html>
+------------
+ cursor value:
+1- auto => is a defult value
+2- none
+3- text
+4- pointer
+5- cell
+6- no-drop 
+7- n-resize
+8- ew-resize
+9- nesw-resize
+10-default
+11-progress
+12-vertical-text
+13-not-allowed
+14-s-resize
+15-ne-resize
+16-nmse-resize
+17-wait
+18-alias
+19-all-scroll
+20-e-resize
+21-nw-resize
+22-copy
+23-col-resize
+24-w-resize
+25-se-resize
+26-sw-resize
+27-move
+28-help

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(( Selectors [ ~ = next | ^ = attripute start| $ = attripute end | *  = all or content ] ))</title>
+        <style>
+            p ~ span{color: red;}
+            [class^="em"] {color:#00F}                                  /* [attripute^="start attripute value "] */
+            [class$="x"] {background-color: #676767}       /* [attripute$="end attripute value "] */
+            [class*="x"] {background-color: #444}
+        </style>
+    </head>
+    <body>
+        <p class="emad">hello im paragraph</p>
+        <div class="emad">
+            <p>hello p</p>
+            <span class="ahmed">hello span from inside div</span>
+        </div>
+        <span class="osama">hello span from outside div</span>
+    </body>
+</html>
+---------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(( Selectors [ Checked , Disabled , Enabled , Empty ] ))</title>
+        <style>
+            :checked {
+                    width: 100px;
+            }
+            :disabled {
+                    background-color: #DDD;
+            }
+            :empty {
+                    width: 300px;
+                    hieght: 50px;
+                    background-color: #080
+            }
+           input [type="checkbox"] :checked {
+ 
+           }
+        </style>
+    </head>
+    <body>
+        <form class="emad">
+            <lable>Test 1</lable>
+            <input type="checkbox">
+
+            <lable>Test 2</lable>
+            <input type='"checkbox">
+    
+            <lable> mozilla </lable>
+            <input type='"radio" name="browser">
+
+            <lable> opera </lable>
+            <input type='"radio" name="browser">
+
+            <lable> chrome </lable>
+            <input type='"radio" name="browser">
+        </form>
+
+        <p>hello</p>
+        <p></p>
+        <p>hello p</p>
+        <div></div>
+        <p>hello last p</p>
+
+    </body>
+</html>
+---------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(( Selectors [ not , first-child , last-child , last-of-type , first-of-type] ))</title>
+        <style>
+            section :not(p)  {                   /* container :not(selector) */
+                  color: #00F
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+             <div>this is div</div>
+             <p>this is p</p>
+             <aside>this is a side</aside>
+        </section>
+    </body>
+</html>
+---------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(( Selectors [ only child , only-of-type , selection] ))</title>
+        <style>
+            section {
+                   border: 1px solid #CCC;
+                   margin: 10px
+             }
+            ::selection {background-color: #333;color:#FFF}
+        </style>
+    </head>
+    <body>
+        <section>
+            <p>this is p without other children</p>
+        </section>
+        <section>
+            <p>this is p with other children</p>
+            <div>this is div</div>
+        </section>
+    </body>
+</html>
+------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(( Nth ))</title>
+        <style>
+             div:nth-child(2) {color: #00F}
+             div:nth-of-type (4) {color: red}
+             div:last-of-type() {}
+             div:nth-child(odd--even)
+             div:nth-first-child () {}
+             div:nth-first-of-type () {}
+        </style>
+    </head>
+    <body>
+        <div>dvsvvbdf edevs</div>
+        <div>saevrbvfddvxfrdv</div>
+        <div>dvxrvbdfxvfdvdf</div>
+        <div>dfvcxfvfdbdvdfv</div>
+        <div>dfvdfbtgngygf</div>
+    </body>
+</html>
+-------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(( Nth ))</title>
+        <style>
+            div, p {
+                    padding: 10px;
+                    margin: 0;
+                    width:200px;
+                    border: 1px solid #333
+            }
+            div:nth-child(n+number) {       „‰ «·—ﬁ„ «·Ì «Œ— «·’›ÕÂ
+           
+            }
+            div:nth-child(-n+number) {     „‰ «Ê· «·’›ÕÂ «·Ì «·—ﬁ„
+           
+            }
+          
+             /*
+                 2 x n + 1
+            */
+            div:nth-child(2n+1) {   /*  2n+1 = odd*/
+           
+            }
+            div:nth-of-type(n+number) {
+           
+            }
+            div:nth-last-child(n+number) {
+               
+            }
+            div:nth--first-child(n+number) {
+           
+            }
+
+            range
+             div:nth-child(n+3):nth-child(-n+8) {
+                  color: black
+             }
+        </style>
+    </head>
+    <body>
+        <div>this is div [ 1 ]</div>
+        <div>this is div [ 2 ]</div>
+        <div>this is div [ 3 ]</div>
+        <p>this is p 1</p>
+        <div>this is div [ 4 ]</div>
+        <div>this is div [ 5 ]</div>
+        <div>this is div [ 6 ]</div>
+        <p>this is p 2</p>
+        <div>this is div [ 7 ]</div>
+        <div>this is div [ 8 ]</div>
+        <div>this is div [ 9 ]</div>
+        <p>this is p 3</p>
+        <div>this is div [ 10 ]</div>
+    </body>
+</html>
+
+
+
+
+
+

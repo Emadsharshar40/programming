@@ -1,0 +1,21 @@
+background
+==========
+
+div
+{
+   background-color:red; 
+   background-color:#f00;
+   background-color:rgb(147,38,38);  
+   background-color:rgba(147,38,38,0.6);
+}
+
+div
+{
+   background-image:url('');
+   background-repeat:repeat or repeat-x or repeat-y or no-repeat;
+   background-attachment:fixed;   standard => scroll inherit or !important
+   background-position:top right or top left or center right or center left or bottom right or bottom left or center center or center top or center bottom;
+   background-position:0% 0%;
+}
+
+background:#00F url('') no-repeat scroll 10% 10%;

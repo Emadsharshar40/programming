@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <style>
+           div
+           {
+              background:#00F;
+              color:#FFF;
+              margin-left:10px;  /* top right bottom left */
+              margen:auto; 
+              margin:10px auto;
+              margin:-10px auto;
+              
+           }
+        </style>
+     </head>
+     <body>
+        <div>
+           this our div margin
+        </div>
+     </body>
+</html>

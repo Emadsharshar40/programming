@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+         <head>
+              <style>
+                   a
+                   {
+                        background:#080;
+                   }
+                   a[target="-blank"]
+                   {
+                        background:#080;
+                   }
+                   img[title="image2"]
+                   {
+                        border-radius:10px;
+                   }
+              </style>
+         </head>
+         <body>
+              <a href="https://www.google.com">Google</a> /
+              <a href="#" target="-blank">website</a> /
+              <a  title="testing" href="#">Another website</a>
+              
+              <img src="http://placehold.it/100/F00/FFF" title="my image1" alt="This is test" />
+              <img src="http://placehold.it/100/DDD/FFF" title="my image2" alt="This is test" />
+              <img src="http://placehold.it/100/F00/FFF" title="my image3" alt="This is test" />
+          </body>
+</html>

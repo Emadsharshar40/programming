@@ -1,0 +1,479 @@
+«·Œ·›Ì« 
+<<backgrund>>
+
+1- background-color: ;
+2- background-image: url('');
+3- background-repeat: ;
+4- background-attachment: scroll or fixed;
+5- background-position: ;
+6- background-clip: border-box // padding-box // content-box;   
+7- background-size: contain // cover; 
+9- background-origin: ;
+10- background: image repeat attachment position color; «·ﬂÊœ «·„Œ ’—
+-----------------------
+ ‰”Ìﬁ «·‰’Ê’
+<<text format>>
+
+1- color: ; 
+2- direction: ;     €Ì— « Ã«Â «·‰’Ê’
+3- letter-spacing: ;
+4- word-spacing: ;
+5- word-wrap: break-word;
+6- word-break: ;
+7- line-height: ;
+8- text-align: ;
+9- text-decoration: ;
+10- text-indent: ;
+11- text-transform: capitalise // inherit // initial // lowercase // math-auto // uppercase // unset // revert // none;
+12- white-space: ; 
+13- font-style: ;
+14- font-size: ;  16px devulte
+15- font-weight: ;
+16- virtacle-align: ;
+17- font: font-style / font-weight / font-size / line-height / font-family;
+-----------------------
+1- font-family: ;  «·ŒÿÊÿ «·„ÊÃÊœÂ ⁄·Ì «·ÃÂ«“
+2- @font-face {
+	font-family: ;
+	src: url('');         ›Ì Õ«·Â  ‰“”· Œÿ ÃœÌœ ⁄·Ì «·ÃÂ«“
+} 
+
+Ì„ﬂ‰ «” Œœ«„ Œÿ „‰ ÃÊÃ· ⁄‰ ÿ—Ìﬁ «·«” ÷«›Â ›Ì —«” ’›ÕÂ «· « ‘  Ì «„ «· À„ «” Œœ«„ «”„ «·›Ê‰ 
+ttf: true type font
+ottf: open type font
+woff: web open font
+woff2: web open font2
+svg: scalable vector graphic
+------------------------
+1- counter-reset: name of counter number; devult value of number = 0  Ìﬂ » Â–« «·”ÿ— ›Ì  ‰”Ìﬁ Ã”„ «·’›ÕÂ
+	counter-increment: name of counter;
+	content: counter(name of counter , style of shape counter);
+-----------------------
+ ‰”Ìﬁ «·ﬁÊ«∆„
+list style
+
+1- list-style-type: ;
+2- list-style-position: ;
+3- list-style-image: url('');
+4- list-style: type position Url('');
+-----------------------
+	table style
+1- border-spacing: ;
+-----------------------
+styling container block element
+
+      <<border>> & <<border-radius>>
+
+1- border-width: ;
+2- border-style: ;
+3- border-color: ;
+
+4- border-top: ;
+5- border-right: ;
+6- border-bottom: ;
+7- border-left: ;
+
+8- border-top-width: ;
+9- border-right-width: ;
+10- border-bottom-width: ;
+11- border-left-width: ;
+
+12- border-top-style: ;
+13- border-right-style: ;
+14- border-bottom-style: ;
+15- border-left-style: ;
+
+12- border-top-color: ;
+13- border-right-color: ;
+14- border-bottom-color: ;
+15- border-left-color: ;
+
+16-border: width/style/color;
+<<<<<<<
+	<<border radius>>
+
+1- border-radius: ;
+2- border-top-left-radius: ;
+3- border-top-right-radius: ;
+4- border-bottom-right-radius: ;
+5- border-bottom-left-radius: ;	
+
+---
+     <<margin>>
+
+1- margin-top: ;
+2- margin-right: ;
+3- margin-bottom: ;
+4- margin-left: ;
+5- margin: ; auto
+---
+    <<padding>>
+
+1- padding-top: ;
+2- padding-right: ;
+3- padding-bottom: ;
+4- padding-left: ;
+5- padding: ;
+---
+    << width & height >> 
+
+1- min-width: ;   __ min-height: ;
+2- max-width: ;  __ max-width: ; 
+3- width: ;        __ height: ;
+---
+    <<display>>
+
+1- display: none / block / inline / inline-block / grip / flex /inline-flex;
+---
+    <<position>>
+1- position: fixed(„ Õ—ﬂ „⁄ «·«”ﬂ—Ê·); /*static=devult value*/
+               top: ;
+               right: ;
+               bottom: ;
+               left: ;
+               
+               relative; no fixed
+
+               absluete: top right bottom left;
+---
+      <<float>>
+1- float: left/right; none
+   
+    clear: left/right/both;
+---
+     <<overflow>>
+1- overflow: hidden / visiple=defult / scroll / auto;
+2- overflow-x: ;
+3- overflow-y: ;
+---
+    <<visibility>>
+1- visibility: hidden/visible;
+---
+‰Ÿ«„ «·ÿ»ﬁ« 
+ 1- z-index: ; 
+---
+directio: ;  « Ã«Â «·’›ÕÂ
+---
+1- cursor: ;      
+---
+   <<resize>>
+1- resize: both // horizental // virtecale // ; 
+----
+  <<opacity>>
+1- opacity: ;
+----
+
+<< caret color >>
+<p contenteditable="true"> </p>
+1- carent-color: ;
+
+<< pointer event >>      
+1- pointer-events: ;		
+-----
+
+    <<outline>>
+1- outline-width: ;
+2- outline-style: ;
+3- outline-color: ;
+
+4- outline-top: ;
+5- outline-right: ;
+6- outline-bottom: ;
+7- outline-left: ;
+
+8- outline-top-width: ;
+9- outline-right-width: ;
+10- outline-bottom-width: ;
+11- outline-left-width: ;
+
+12- outline-top-style: ;
+13- outline-right-style: ;
+14- outline-bottom-style: ;
+15- outline-left-style: ;
+
+12- outline-top-color: ;
+13- outline-right-color: ;
+14- outline-bottom-color: ;
+15- outline-left-color: ;
+
+16-outline: width/style/color;
+---
+		<<MEDIA>>
+<link rel="stylesheet" href="style.css" media="screen" />
+<link rel="stylesheet" href="style.css" media="print" />
+<link rel="stylesheet" href="style.css" media="all" />
+<link rel="stylesheet" href="style.css" media="tv" />
+
+in stylesheet 
+@media print or (min-width; ) // (max-width;) // (max-width;) and (max-width;) {
+	p { 
+	}
+	div {
+	}
+}
+	<<standerd media query>>
+mobile first
+
+---
+
+    << box shadow >>
+
+1- box-shadow: horizontal shadow=width shadow // virtacle shadow // blur // spread=«·«‰ ‘«— // color // out set or inset;
+2- box-shadow: 10px -10px 19px 20px #00f;
+
+-------
+	<<text-shadow>>
+
+1- text-shadow: horizontal shadow=width shadow // virtacle shadow // blur // spread=«·«‰ ‘«— // color ;
+2- text-shadow: 10px -10px 19px 20px #00f;
+-------
+	<<box-sizing>>
+1- box-sizing: content-box=devult  // border-box ;
+-------
+	<<overflow>>
+1- text-overflow: ellipsis//;/* clip=devult value */
+-------
+«·„‰ŸÊ—
+1- perspective: px;
+2- perspective-origin: „ﬂ«‰ „‰ŸÊ— «·⁄‰’— 
+--------
+	<<transform 2D>>
+1- transform: rotate(deg);
+2- transform: scale(scalewidth , scale height);
+3- transform: scaleX(scalewidth);
+4- transform: scaleY(scale height);
+5- transform: transalte();
+6- transform: transalteX();
+7- transform: transalteY();
+8- transform: skew();
+9- transform: matrix( scaleX // skewY // skewX // scaleY // translaeX // translateY);
+ 	<<transform 3D>>
+1- transform: rotateX(deg);
+2- transform: rotateY(deg);
+3- transform: rotateZ(deg);
+4- transform: rotate3d(x,y,z);
+5- transform: translate3d(x,y,z);
+6- transform: translateZ(px);
+7- transform: scale3d(x,y,z);
+8- transform: scaleZ();
+9-  transform: matrix3d( scaleX // 0 // 0 // 0 // 0 // scaleY // 0  // 0 // 0 // 0 // 0 // 0 // translateX  // translateY // scaleZ // 0  );
+------------
+	<<transform origin - transform style>>
+1- transform-origin: „ﬂ«‰ «Ê „—ﬂ“ «— ﬂ«“ «·⁄‰’— ⁄‰œ «·œÊ—«‰ «Ê ⁄„· «Ì  —«‰”›Ê—„;
+2- transform-style: flate= defult value // prescerv 3d;
+-------------
+	<<backface>>
+1- backface-visibileity: visible // hidden;
+--------------
+1- filter: grayscale(100%) // blur() // invert();
+------------------
+	‘—ÿ «” Œœ«„ Â–Â «·Œ«’ÌÂ «‰ ÌﬂÊ‰ «·œÌ”»·«Ì ›·Ìﬂ”
+	<<flex-box>>
+	«·ŒÊ«’ «·Œ«’Â »«·ﬂÊ‰ Ì‰— 
+1- flex-direction: row // row-reverse // column // column-reverse;
+2- flex-wrap: wrap // wrap-reverses; nowrap=devulte value
+3- short hand for flex-direction and flex-wrap || 
+         flex-flow: direction // wrap;
+4- justify-content: flex-end // center // space-between // space-around;   flex-start=devulte value
+5- align-items: flex-start // flex-end // center // baseline ; stretch=devultevalue
+6- align-content: center // flex-start // flex-end // space-between // space-around; stretch=devultevalue
+
+	«·ŒÊ«’ «·Œ«’Â »«·⁄‰«’— œ«Œ· «·ﬂÊ‰ Ì‰—
+1- order: ; to order the items
+2- felx-grow: ;
+3- flex-shrink: ; „⁄«œ·Â «·›·Ìﬂ” ‘—Ì‰ﬂ
+4- flex-basis: ;auto
+5- shorthand 
+    flex: flex-grow // flex-shrink // flex-basis; {0 1 auto};
+6- align-self: ;
+--------------
+	<<grid sestem>>
+display: grid;
+	«·ŒÊ«’ «·Œ«’Â »«·ﬂÊ‰ Ì‰—
+1- grid-template-columns: repeat(number of columns , auto // auto-fill) fraction =fr // minmax(); number of columns     ⁄œ «·«⁄„œÂ ÊÕÃ„ «·⁄—÷ «·Œ«’ »Â«
+2- grid-template-rows: ; ⁄œœ «·’›Ê› ÊÕÃ„ «·ÿÊ· «·Œ«’ »Â«
+3- grid-template: rows colums;
+4- row-gap: ;
+5- column-gap:
+6- gap: row // column;
+7- justify-content: ;
+8- align-content: ;
+9- place-items: ;
+10- grid-template-areas: " logo logo name name " <<<=line one "" <<<=line tow ...... ;
+	element { grid-area: logo; };
+	«·ŒÊ«’ «·Œ«’Â »«·⁄‰«’— œ«Œ· «·ﬂÊ‰ Ì‰—
+1- grid-column-start: ; start column
+2- grid-column-end: ; end column
+1+2 - grid-column: start // end  or span 4 ; shorthand
+
+3- grid-row-start: ;
+4- grid-row-end: ;
+3+4- grid-row: span2;
+
+	1- align-self: ;
+	2- justify-self: ;
+
+5- ||only|| grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end ; 
+6- order: ;
+--------------
+	<<gradients>>
+  	linear-gradient( direction or angle ,, color stop1 ,, color stop2 Ì„ﬂ‰  ÕœÌœ «·Ì «Ì „œÌ ”Ê› Ì’· «··Ê‰ ⁄‰ ÿ—Ìﬁ «· px angle,, ...... )
+1- background-image:  linear-gradient();
+	
+	direction => to top , to left , to bottom , top left ;
+	Angle => 0deg  >> 360deg
+--------------
+	<<transition>>
+1- transition-property: ;
+2- transition-duration: ;
+
+3- transition-timing-function: ease=devulte value // linear // ease-in // ease-out // ease-in-out ; speed-carve;
+                                    steps( number of steps || start or end );
+			cubic-bezier( 0,0,0,0 );
+
+4- transition-delay: ;
+5- transition: property | duration | timing-function  | delay ;
+---------------
+	molti columns => count , gap , rule , width
+
+1- column-count: ; ⁄œœ «·«⁄„œÂ
+2- column-gap: ; «·„”«›Â »Ì‰ «·«⁄„œÂ
+3- column-rule: boder between element ; medium none color
+4- column-rule-width: ;
+5- column-rule-style: ;
+6- column-rule-color: ;
+7- column-width: ;
+8- column-span: 1=devulte value // all;
+
+9- column short hand 
+    columns: width // count ;  auto auto=devulte value
+-----------------
+		<<animation>>
+1- animation: name // duration // timig function // delay // iteration // direction // fill mode // play state;
+2- animatio-name: ;
+3- animation-duration: ;
+4- animation-iteration-count: infinite ; rebbet
+5- animation-direction: normal // revers // alternate // alternata-revers;
+6- animation-delay: ;
+7- animation-fill-mode: none // forwards »Ì‰›“ «Ê· «‰„Ì‘‰ ﬁ»· »œ« «·«‰„Ì‘‰ // backwards »Ì‰›“ «Œ— «‰„Ì‘‰ ⁄‰œ ‰Â«ÌÂ «·«‰„Ì‘‰ ÊÌ Êﬁ› ⁄‰œÂ // both ; 
+8- animation-play-state: running // paused;
+9- animation-timing-function: ;
+
+@keyframes «”„ «·«‰„Ì‘‰ {
+from {}
+to {}
+OR
+0% {} 
+20% {}
+100% {}
+}
+---------------------
+()()()(()()(()(()()()()()()()()()()()()
+
+ important value = inherit  Ê—ÌÀ «·Œ«’ÌÂ „‰ «·«»
+------------
+1- counter-increment: ;   «·⁄œ«œ
+       counter();  
+2- attr();
+3- url();   
+--------------
+ €Ì—  ‰”Ìﬁ«  «·⁄‰’— » √ÀÌ—«  «·Â«›— Ê«·«ﬂ ›
+element:hover {
+}
+element:active {
+}
+
+:root {
+	--first-color: red;
+} p {color: var(--first-color , full baclk value)}
+
+()()()(()()(()(()()()()()()()()()()()()
+
+css units 
+	px 
+	em ==>> time 1em=one time
+	rem ==>> root em element
+	persanteg ==>> % for father ‰”»Â „∆ÊÌÂ „‰ «·» «·Œ«’ »Â
+	vw ( view port ) ==>> 
+---------------------------- 
+	<<pusodu classes>>
+
+1- div:after {
+	content: "  ";
+}
+2- div:before {
+	content: "  ";
+}
+3- checkbox:checked {
+}
+
+4- checkbox:checked + lable {     + = «·⁄‰’— «·–Ì Ì·ÌÂ
+}
+
+5- a:visited {
+	color: blue;
+}
+
+6- div:empty { 
+}
+
+7- input:focus {
+	border: 1px soid red;
+}
+
+8- element::first-letter {
+}
+
+9- element::first-line {
+}
+
+10- ::selection {}
+
+11- ::placeolder {}
+-----------------------
+
+	<<selectors>>
+1- * <<  ” Âœ› Ã„Ì⁄ «·⁄‰«’—
+2- element «” Âœ«› «·⁄‰’— ›Ì «·’›ÕÂ ﬂ«„·Â
+3- element other element >> div p  „⁄‰«Â« Ã„Ì⁄ «·‰’Ê’ œ«Œ· «·œÌ›<<nesting>>
+4- #id element
+5- .class element
+6- element , element <<grouping>>
+7- .class1.class2 <<»œÊ‰ «·„”«›Â »Ì‰Â„ ›Ì „  ÕœÌœ «·⁄‰’— «·–Ì »œ«Œ·Â ﬂ·«”Ì‰>>
+8- element.clas-name {} <<ÌÃ» «‰ ÌﬂÊ‰ «·⁄‰’— «·„” Âœ› ÂÊ «·–Ì ÌÕ„· Â–« «·ﬂ·«” «–« Õ„·Â «Ì ⁄‰’— «Œ— ·‰  ‰ »ﬁ ⁄·ÌÂ «·ŒÊ«’>>
+9- class-name or element > class-name or element <<direct child = «·«»‰ «·„»«‘—>>
+10- element + element2 ÌÃ» «‰ ÌﬂÊ‰ «·⁄‰’— «·À«‰Ì »⁄œ «·⁄‰’— «·«Ê· „»«‘—Â
+11- element ~ other-elements <<>>
+12- [title] <<Attriput-name>> 
+13- element[Attriput-name] 
+14- [title] <<Attriput-name=value>> 
+15- element[Attriput-name=value]
+16- element[Attriput-name~=value]  ~sebling
+17- element[Attriput-name*=value]  Ã“¡ „‰ «·ﬁÌ„Â «·Œ«’Â »«·« —»ÌÊ 
+18- [Attriput-name^=value]  «·⁄‰«’— · Ì  »œ« »«·Ã“¡ «·„ﬂ Ê»
+19- [Attriput-name$=value]  «·⁄‰«’— «· Ì  ‰ ÂÌ »«·Ã“¡ «·„ﬂ Ê»
+
+20- element:first-child {}  «·«»‰ «·«Ê· ›Ì «·ﬂÊ‰ Ì‰—
+21- element:last-child {}
+22- :first-of-type {} 
+23- :last-of-type {}
+24- :only-child
+25- only-of-type
+26- div:not(:first-child) :not()
+27- :nth:child(n // even // odd) 
+28- :nth:of-type(n // even // odd) 
+/*
+*   2n+1 | 2x0=0 + 1 =[1]
+*   2n+1 | 2x1=2 + 1 =[3]
+*   ...
+*/
+29- :nth:last-child(n // even // odd // -n+5) 
+30- :nth:last-of-type(n // even // odd) 
+-----------------
+	<<global values>>
+1- inherit
+2- initial   standard value
+3- unset << 
+4- all: ;
+    revet         user agent «⁄«œÂ  ‰”Ìﬁ«  
+--------------------

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div
+            {
+                width:200px;
+                height:200px;
+                padding:10px;
+                background:#333;
+                color:red;
+                font-weight:bold;
+                font-size:30px;
+                border:1px solid #00F;
+                
+                opacity:0.1 to 0.9 ;              /*1 is a defult value*/
+    
+                filter: alpha(opacity=50%)          ·· ‘€Ì· ⁄·Ì «‰ —‰  «ﬂ”»·Ê—«—
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            This is normal div 
+        </div>
+    </body>
+</html>

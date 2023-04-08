@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+         <head>
+              <style>
+                   .one, .tow, .three
+                   {
+                        color:#000;
+                        padding:10px;
+                        width:500px;
+                        margin:10px;
+                        border:2px solid rgba(255,0,0,0.8);
+                        float:left;
+                   } 
+
+                   /*
+                   .one
+                   {
+                        background:#0F0;
+                        color:#000;
+                        padding:10px;
+                        width:500px;
+                        margin:10px;
+                        border:2px solid rgba(255,0,0,0.8);
+                        float:left;
+                   }
+                   .tow
+                   {
+                        background:#00F;
+                        color:#FFF;
+                        padding:10px;
+                        width:500px;
+                        margin:10px;
+                        border:2px solid rgba(255,0,0,0.8);
+                        float:left;
+                   }
+                   .three
+                   {
+                        background:#F00;
+                        color:#000;
+                        padding:10px;
+                        width:500px;
+                        margin:10px;
+                        border:2px solid rgba(255,0,0,0.8);
+                        float:left;
+                   }
+                   */
+              </style>       
+         </head>
+         <body>
+              <div class="one">
+                   this is normal div
+              </div>
+              <div class="tow">
+                   this is normal div
+              </div>
+              <div class="three">
+                   this is normal div
+              </div>
+         </body>
+</html>
+ 

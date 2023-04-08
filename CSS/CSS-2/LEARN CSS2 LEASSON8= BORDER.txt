@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <style>
+           div
+           {
+              background:#DDD;
+              border or border-left or border-top or border-bottom or border-right:1px solid #000;      /* solid or dotted or dashed or double or groove or ridge or                                                                                                                  inset or outset or hidden or rgb( */
+           }
+        </style>
+     </head>
+     <body>
+        <div>
+           this is our div an border
+        </div>
+     </body>
+</body>
+-----------------
+     P{
+         border-width:1px 2px 1px 2px;  /* top rhight bottom left */
+         border-left-style:solid dotted none;
+         border-color:#676767 #898989;
+      }

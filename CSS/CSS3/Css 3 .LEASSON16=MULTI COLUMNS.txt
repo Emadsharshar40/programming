@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> (( multi columns =>> column-count , column-gap , column-rule , column-width , column-spane , short code)) </title>
+        <style>
+            div
+            {
+                border: 1.5px solid #000;
+                padding: 10px;
+                -webkit-column-count: 3;      ⁄œœ «·«⁄„œÂ  /* auto = is a defult value */
+                -webkit-column-gap: 100px;   «·„”«›Â »Ì‰ «·«⁄„œÂ     /* normal = defult value */ 
+                -webkit-column-rule: 4px solid #00F;             /* medium none color = width | style border | color border = this is defult value */
+                -webkit-column-width: 200px;
+
+                -webkit-columns: 300px 4;            /* column-width , column-count | auto auto =defult value */
+            }
+            div h2
+            {
+                -webkit-column-span: all;   /* 1=defult value */
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Hello there</h1>
+            hguhf lhi vlsdahiehfksdal;leiwqoeijsa;nvca,nx.,sncxmnaehfupwiouehfrewy94803h4hfsacjkbn483dbvnabljk
+            alekvjbzdnjkbvlabvuibefdbskaljbieuwrbvibalkbjsdbjbuviaweulbvudsabkjblkvbjbilreubvulbasdlkvabibjkbvksdavbd
+            iahvhrvjsei[rvh siehr34898y4hg vdfeaoihr[e8gh98revsdvbpa[ejberj erghwe  reh8he89gt4y8 hghvhdv
+            cvajlkbvrqbfi3ufb uiba dsv dasjhv eeabrfvbuiouawfqauvbalbvdbhd.
+        </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+-webkit-
+-mos-
+-o-
+-ms-
+__________________
+
+ÿ—ﬁ  Ê”Ìÿ «·⁄‰«’—
+1-
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+ 2- 
+ 	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -12.5% 0 0 -12.5%;
+3- 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+4- 
+	display: grid;
+	place-items: center;
+5-
+	for container::
+	display: flex;
+	--
+	for child::
+	margin: auto;
+6-
+	for container:: 
+	display: flex;
+	justify-content: center;
+	--
+	for child:: 
+	align-self: center;
+7-
+	for container::
+	display: grid;
+	--
+	align-self: center;
+	justify-self: center;
+8-
+	for container::
+	position: relative;
+	--
+	for child::
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;	
+
+
+
+
+					

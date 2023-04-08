@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+         <head>
+              <style>
+                   body
+                   {
+                        height:1000px;
+                        background-image:url('image/38px/cfuam');
+                   }              
+                   .cont .another
+                   {                 
+                        width:600px;
+                        background:#000;
+                        color:rbga(255,0,0,0.8);
+                        padding:10px; 
+                        margin:10px;  
+                        border:2px solid #00F;
+                   }
+                   .cont p
+                   {
+                        color:#00F;
+                        fount-weigh:bold;
+                   }
+                   .another p, .cont .p
+                   {
+                        color:#F00;
+                        fount-weight:bold;
+                   }
+        
+              </style>
+         </head>
+         <body>
+
+              <div class="cont">
+                   This is main div
+                   <p> This is child paragraph from container </p>
+              </div>
+
+              <div class="another">
+                   This is main div
+                   <p> This is child paragraph from another </p>
+              </div>
+
+         </body>
+</html>

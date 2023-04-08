@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+            div{width:300px;background:#00F;padding:10px;margin:5px;border:4px solid #F00;    outline: same border values but ·« Ì«Œ– „‰ „”«ÕÂ «·œÌ›}
+     </style>
+</head>
+<body>
+     <div>
+           this is border div
+     </div>
+</body>
+</html>

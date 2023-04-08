@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <title>
+             ((<< ROTATE >>))
+        </title>
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            div
+            {
+                background-color:#333;
+                transform:rotate(90deg);
+                width:200px;
+                height:200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h3> this is normal div </h3> 
+            
+        </div>
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <title>
+             ((<< SCALE >>))
+        </title>
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            *
+            {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            } 
+            .container
+            {
+                background-color:#333;
+                padding:10px;
+                border:2px solid #F00;
+                width:400px;
+                heigh:180px;
+                margin:100px auto;
+            }
+            .scale
+            {
+                background-color:#CCC;
+                color:#000;
+                text-align:center;
+                height:200px;
+            }
+            .scale:hover
+            {
+                -webkit-transform:scale(2,2);                /* scale ,scalex , scaley  =>  (width , height)  scale= none is defult value*/
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="scale">
+                Thi is 2D Transform scale()
+            </div>   
+        </div>
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <title>
+             ((<< TRANSLATE >>))
+        </title>
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            *
+            {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            } 
+            .container
+            {
+                background-color:#333;
+                padding:10px;
+                border:2px solid #F00;
+                width:400px;
+                heigh:180px;
+                margin:100px auto;
+            }
+            .translate
+            {
+                background-color:#CCC;
+                color:#000;
+                text-align:center;
+                height:200px;
+            }
+            .translate:hover
+            {
+                -webkit-transform:translate(40,40) scale(.5,.5) rotate(20deg);        /* translate , translatex, translatey = (x,y) or (-x,-y)*/               
+            }          
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="translate">
+                Thi is 2D Trasform Translate()
+            </div>      
+        </div>
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <title>
+             ((<< SKEW >>))
+        </title>
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            *
+            {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            } 
+            .container
+            {
+                background-color:#333;
+                padding:10px;
+                border:2px solid #F00;
+                width:400px;
+                heigh:180px;
+                margin:100px auto;
+            }
+            .skew
+            {
+                background-color:#CCC;
+                color:#000;
+                text-align:center;
+                height:200px;
+            }
+            .skew:hover
+            {
+                -webkit-transform:skew(10deg,10deg);           /* skew ,skewx ,skewy =(xdeg , ydeg) or (-xdeg , -ydeg) */              
+            }          
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="skew">
+                Thi is 2D Trasform skew()
+            </div>      
+        </div>
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <title>
+             ((<< Matrix >>))
+        </title>
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            *
+            {
+                -webkit-box-sizing:border-box;
+                -moz-box-sizing:border-box;
+                box-sizing:border-box;
+            } 
+            /*
+                 transform: matrix(a,b,c,d,x,y);
+                 transform: matrix( scalex , skewY , skewX , scaleY , translateX , translateY);  
+            */
+        </style>
+    </head>
+    <body>
+        <img src="" alt="">
+    </body>
+</html>

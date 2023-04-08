@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="discreption" content="" />
+        <link rel="stylesheet" href="" />
+        <script>
+
+        </script>
+        <style>
+            div
+            {
+                background-color:#333;
+                color:#FFF;
+                padding:10px;
+                width:300px;
+                border:1px solid #00F;
+                word-wrap:break-word;                            /* normal => defult value */
+                white-space:normal , nowrap;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h3> this is normal div </h3> 
+            <p>pauieckascuauaiuc aiounxnzkv vsdsiuddf fdjsdcdsldwoihcsuixjkjauiashhgufh lhiv hgufhlhiv </p>
+        
+        </div>
+    </body>
+</html>
